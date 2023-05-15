@@ -1,0 +1,6 @@
+﻿l_german:
+ EFFECT_REMOVE_FM_LEADER: "$NAME|H$ hört auf ein General zu sein.\n"
+ EFFECT_REMOVE_CC_LEADER: "$NAME|H$ hört auf, Generalleutnant zu sein.\n"
+ EFFECT_CREATE_FM_LEADER: "$NAME|H$ wird General.\n"
+ EFFECT_CREATE_CC_LEADER: "$NAME|H$ wird Generalleutnant.\n"
+ EFFECT_GIVE_MILITARY_ACCESS: "Erlaubt $COUNTRY|Y$ die Einrichtung von Militärbasen."
