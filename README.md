@@ -8,8 +8,8 @@ This is a sub-mod for the Millennium Dawn mod for the game Hearts of Iron IV tha
 I'm excited to welcome any contributions and kindly ask you to point out any errors in the translations. Additionally, I would like to take charge of managing and initiating the project to ensure that all German-speaking individuals have a proper German language implementation for the mod.
 
 ## Acknowledgements & Links
-+ [Get it here on the Steam Workshop](?SOON)
-+ [Get it here on Paradoxplaza](?SOON)
++ [Get it here on the Steam Workshop](#)
++ [Get it here on Paradoxplaza](#)
 + [Join the official MD Mod Discord](https://discord.gg/millenniumdawn)
 
 
