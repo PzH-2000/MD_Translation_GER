@@ -14,7 +14,7 @@ I'm excited to welcome any contributions and kindly ask you to point out any err
 
 
 ## Author(s) & Contributor(s)
-(A) [@PzH-2000](https://github.com/PzH-2000)
+(A) [@NiclqsGER](https://github.com/NiclqsGER)
 
 
 ## FAQ
