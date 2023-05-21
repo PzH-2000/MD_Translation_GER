@@ -1,0 +1,28 @@
+﻿l_german:
+ research_slots_decisions: "Forschung Slots"
+ research_slots_decisions_desc: "Die Forschungskapazität unseres Landes wird durch zwei Faktoren bestimmt: Gesamtgröße der Industrie (BIP) und Entwicklungsniveau (BIP/c).        \n\nForschungsslots aus Industriegröße: [?research_slots_from_gdp|C.0] (BIP erforderlich: $$[?GLOBAL.gdp_slot^research_slots_from_gdp|Y0] b)\nResearch slots from development level: [?research_slots_from_gdp_c|C.0] (GDP/c required: $$[?GLOBAL.gdp_c_slot^research_slots_from_gdp_c|Y0] k) [research_slots_status] \n\nUnsere Bildungsausgaben erhöhen sich um [?research_slot_modifier|.0%] aufgrund unserer Menge an Forschungsslots. Die Erhöhung der Bildungsausgaben durch Forschungsslots beträgt (0,04 * x) - 0,02, wobei x die Forschungsslots sind."
+ gdp_gain_slot: "Laboratorien ausbauen"
+ #gdp_gain_slot: "Nächster Slot vom BIP bei: $$[?GLOBAL.gdp_slot^next_slot_from_gdp|Y0] b"
+ gdp_gain_slot.tt: "BIP ($$[?gdp_total_display|Y] b) > $$[?GLOBAL.gdp_slot^next_slot_from_gdp|Y0] b"
+ gdp_c_gain_slot: "Aufrüstung der Laborausrüstung"
+ #gdp_c_gain_slot: "Nächster Slot von GDP/c bei: $$[?GLOBAL.gdp_c_slot^next_slot_from_gdp_c|Y0] k"
+ gdp_c_gain_slot.tt: "BIP/c ($$[?gdp_per_capita|Y] k) > $$[?GLOBAL.gdp_c_slot^next_slot_from_gdp_c|Y0] k"
+ calculate_new_education_spending_tt: "Nachdem wir einen neuen Forschungsplatz erhalten haben, werden unsere neuen Bildungsausgaben steigen: [?research_slot_tot|%0R].\n"
+
+ gdp_remove_slot: "Stillgelegte Labore"
+ gdp_remove_slot.tt: ""
+ gdp_c_remove_slot: "Downgrade Laborausrüstung"
+ gdp_c_remove_slot.tt: ""
+
+ gdp_lose_slot: "Laboratorien unterbesetzt"
+ #gdp_lose_slot: "BIP-Slot unten verloren: $$[?GLOBAL.gdp_slot^research_slots_from_gdp|Y0] b"
+ gdp_lose_slot.tt: "BIP ($$[?gdp_total_display|Y] b) > $$[?GLOBAL.gdp_slot^research_slots_from_gdp|Y0] b"
+ gdp_c_lose_slot: "Mangel an Laborausrüstung"
+ #gdp_c_lose_slot: "GDP/c Schlitz unten verloren: $$[?GLOBAL.gdp_c_slot^research_slots_from_gdp_c|Y0] k"
+ gdp_c_lose_slot.tt: "BIP/c ($$[?gdp_per_capita|Y] k) > $$[?GLOBAL.gdp_c_slot^research_slots_from_gdp_c|Y0] k"
+
+ research_slots_status: "\n\n§YBranche Größe Entwicklungsstand§!\nBIP $$[?GLOBAL.gdp_slot^1]b           [gdp_slot_1_status]   GDP/c $$[?GLOBAL.gdp_c_slot^1]k   [gdp_c_slot_1_status]\nGDP $$[?GLOBAL.gdp_slot^2]b    [gdp_slot_2_status]   GDP/c $$[?GLOBAL.gdp_c_slot^2]k [gdp_c_slot_2_status]\nGDP $$[?GLOBAL.gdp_slot^3]b    [gdp_slot_3_status]   GDP/c $$[?GLOBAL.gdp_c_slot^3]k [gdp_c_slot_3_status]\nGDP $$[?GLOBAL.gdp_slot^4]b    [gdp_slot_4_status]   GDP/c $$[?GLOBAL.gdp_c_slot^4]k [gdp_c_slot_4_status]\nGDP $$[?GLOBAL.gdp_slot^5]b  [gdp_slot_5_status]\nGDP $$[?GLOBAL.gdp_slot^6]b  [gdp_slot_6_status]\nGDP $$[?GLOBAL.gdp_slot^7]b  [gdp_slot_7_status]\nGDP $$[?GLOBAL.gdp_slot^8]b [gdp_slot_8_status]"
+ research_slot_locked: "§RLOCKED§!          "
+ research_slot_available: "§YAVAILABLE §!"
+ research_slot_in_progress: "§CIN PROGRESS§!"
+ research_slot_unlocked: "§GUNLOCKED§!    "

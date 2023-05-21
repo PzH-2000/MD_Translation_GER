@@ -1,0 +1,55 @@
+﻿l_german:
+ LEDGER_TITLE_SL: "[Root.GetLedgerTitle]"
+ LEDGER_TITLE: "Hauptbuch"
+ LEDGER_TITLE_LAND: "Armee"
+ LEDGER_TITLE_NAVY_AIR: "Marine und Luftwaffe"
+ LEDGER_TITLE_INDUSTRY: "Industrie"
+ LEDGER_TITLE_TERRITORY: "Territorium"
+ LEDGER_TITLE_ECONOMY: "Wirtschaft"
+ LEDGER_TITLE_FACTIONS: "Fraktionen"
+
+ LEDGER_OPEN: "Öffnen Sie das Ledger"
+
+ LEDGER_COUNTRY_TT: ""
+ LEDGER_SORT_TT: "Zum Sortieren anklicken"
+ LEDGER_GROUP_TT: "Zum Gruppieren klicken"
+ LEDGER_REFRESH_TT: "Klicken Sie auf , um die Liste zu aktualisieren"
+
+ LEDGER_POLITICAL_POWER_TT: "Tägliche politische Macht: [?this.political_power_daily|+=]"
+ LEDGER_INDUSTRY_TT: "Zivile Industrien insgesamt: [?this.num_of_civilian_factories|Y0]\nTotal Military Industries: [?this.num_of_military_factories|Y0]\nTotal Naval Yards: [?this.num_of_naval_factories|Y0]"
+ LEDGER_POPULATION: "Bevölkerung"
+ LEDGER_RESEARCH_SLOTS: "Forschung Slots"
+ LEDGER_RESEARCH_SLOTS_TT: "Forschungsgeschwindigkeitsbonus: [?this.modifier@research_speed_factor|+=%]\nTech Sharing Groups: [?this.num_tech_sharing_groups|Y0]\nOriginal Research Slots: [?this.original_research_slots|Y0]"
+
+ LEDGER_BATTALIONS: "Bataillone"
+ LEDGER_DIVISIONS: "Abteilungen"
+ LEDGER_COMMAND_POWER_TT: "Command Power Daily: [?this.command_power_daily|+=]"
+ LEDGER_LAND_DOCTRINE_LEVEL: "Land Doctrine Ebene"
+
+ LEDGER_NAVY: "Schiffe"
+ LEDGER_AIR: "Air Wings"
+ LEDGER_ROCKET_SITES: "Raketen-Gebäude"
+
+ LEDGER_CIV_FACTORIES_TT: "Bonus für Baugeschwindigkeit: [?this.modifier@production_speed_buildings_factor|+=%]\nEffektive zivile Fabriken: [?this.effective_civilian_factories|Y0]"
+ LEDGER_CONSUMER_GOODS_TT: "Für die Steuerkosten verwendete Branchen: [?this.consumer_goods_factories|0Y]"
+ LEDGER_MILITARY_FACTORIES_TT: "Industrieproduktionsbonus: [?this.modifier@industrial_capacity_factory|+=%]\nWirksame Militärfabriken: [?this.effective_military_factories|Y0]"
+ LEDGER_DOCKYARDS_TT: "Werftproduktionsbonus: [?this.modifier@industrial_capacity_dockyard|+=%]\nEffektive Werften: [?this.effective_naval_factories|Y0]"
+
+ LEDGER_OWNED_STATES: "Eigene Staaten"
+ LEDGER_CONTROLLED_STATES: "Kontrollierte Staaten"
+ LEDGER_OWNED_CONTROLLED_STATES: "Im Besitz Kontrolliert"
+ LEDGER_OCCUPIED_STATES: "Besetzte Staaten"
+ LEDGER_CORE_STATES: "Kernstaaten"
+ LEDGER_CONTROLLED_STATES_INCLUDING_SUBJECTS: "Kontrolliert (inkl. Probanden)"
+
+ LEDGER_GDP: "BIP"
+ LEDGER_GDP_C: "BIP/C"
+ LEDGER_DEBT: "Verschuldung"
+ LEDGER_TREASURY: "Schatzamt"
+ LEDGER_GROSS_INCOME: "Bruttoeinkommen"
+ LEDGER_INCOME_TT: "§CPopulation Income:§! $§G[?population_tax|+3]§!\n§LCorporate Income:§! $§G[?corporate_tax|+3]§!\n§GInternationale Investitionen:§! $§G[?int_investments_rate|+3]§!\n§UResource Exports:§! $§G[?resource_sale_rate|+3]§!\n§Zusätzliches Einkommen:§! $§G[?additional_income_rate|+3]§!\n\nGross Income: $§G[?display_income]§!"
+ LEDGER_TOTAL_EXPENSE: "Gesamtaufwand"
+ LEDGER_EXPENSE_TT: "§CBürokratie:§! $§R[?bureaucracy_gain|-3]§!\n§ODefence:§! $§R[?defence_gain|-3]§!\n§UInnere Sicherheit:§! $§R[?security_gain|-3]§!\n§JEducation:§! $§R[?education_gain|-3]§!\n§PHealth:§! $§R[?health_gain|-3]§!\n§BWelfare:§! $§R[?welfare_gain|-3]§!\n§RZinsen auf Schulden:§! $§R[?debt_rate|-3]§!\n§HAdditional Expenses:§! $§R[?additional_expenses_rate|-3]§!\n\nTotal Expenditure: $§R[?display_expense]§!"
+
+ LEDGER_FACTION_LEADER: "Anführer"
+ LEDGER_FACTION_MEMBERS: "Mitglieder"

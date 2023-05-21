@@ -1,0 +1,43 @@
+﻿l_german:
+ EMBARGO_COUNTRY_TITLE: "Embargo"
+ EMBARGO_COUNTRY_ACTION_DESC: "Ein Embargo gegen dieses Land wird dazu führen, dass wir keine Handels- oder sonstigen Wirtschaftsbeziehungen mehr zu diesem Land unterhalten können."
+ EMBARGO_TOOLTIP: "Is not Embargoing §Y[This.GetNameWithFlag]§!\n"
+ EMBARGO_SEND_DESC: "[Root.EMBARGO_SCRIPTED_LOCALIZATION]"
+ EMBARGO_SEND_DESC_USA: "Das Embargo von §Y[This.GetNameWithFlag]§! wird den Handelseinfluss und die Meinung mit §Y[This.GetNameWithFlag]§! um §R100§! reduzieren. Wenn sie auch §YUSAID§! haben, wird dieser entzogen.\n\nDies hindert das Land nicht daran, auf anderem Wege Ressourcen zu finden..."
+ EMBARGO_SEND_DESC_EVERYONE: "Das Embargo von §Y[This.GetNameWithFlag]§! wird den Handelseinfluss und die Meinung mit §Y[This.GetNameWithFlag]§! um §R100§! reduzieren. Dies schränkt das Land nicht ein, Ressourcen durch andere Mittel zu finden..."
+
+ LIFT_EMBARGO_COUNTRY_TITLE: "Embargo aufheben"
+ LIFT_EMBARGO_COUNTRY_ACTION_DESC: "Die Aufhebung des Embargos gegen dieses Land wird es uns ermöglichen, die wirtschaftlichen Beziehungen und die Handelsbeziehungen zu normalisieren."
+ LIFT_EMBARGO_TOOLTIP: "Hebt das Embargo von §Y[This.GetNameWithFlag]§! auf"
+ LIFT_EMBARGO_SEND_DESC: "Die Aufhebung des Embargos gegen §Y[This.GetNameWithFlag]§! wird den Einfluss und die Handelsbeziehungen um §G100§! erhöhen. Allerdings wird §Y[This.GetNameWithFlag]§! aufgrund des kürzlich verhängten Embargos eine Stellungnahme von §R-50§! erhalten."
+ ##Taken from Yard1's mod
+ RECALL_VOLUNTEERS_TITLE: "Rückruf Interventionstruppe"
+ RECALL_VOLUNTEERS_ACTION_DESC: "Wir können unsere Einsatzkräfte jederzeit zurückrufen."
+ RECALL_VOLUNTEERS_TOOLTIP: "§Y[This.GetNameWithFlag]§! §Rmust have active intervention forces from us that we can withdraw.§!"
+ RECALL_VOLUNTEERS_TOOLTIP_G: "§Y[This.GetNameWithFlag]§! muss aktive Interventionskräfte von uns haben, die wir zurückziehen können."
+ RECALL_VOLUNTEERS_SEND_DESC: "Der Kampf, in dem sich §Y[This.GetNameWithFlag]§! befindet, ist nicht länger unser Kampf. Es ist an der Zeit, dass wir unsere Streitkräfte aus dem Konflikt abziehen.\n\n§YDiese Aktion wird unsere Interventionstruppen aus §Y[This.GetNameWithFlag]§!"
+
+ #TRADE AGREEMENT
+ base_trade_condition: "Grundlegende Abneigung gegen Handelsabkommen"
+ condition_two: "Regierung Typ Widerwillen"
+ condition_three: "Zurückhaltung bei der Stellungnahme"
+ condition_four: "Zurückhaltung, weil beide NATO-Mitglieder sind"
+ condition_five: "Zurückhaltung, weil beide EU-Mitglieder sind"
+ condition_six: "Abneigung gegen das Zusammensein in einer Fraktion"
+ trade_condition_has_same_government: "Nationen haben die gleiche Regierung"
+ trade_has_positive_relations: "Hat positive Beziehungen"
+
+ PROPOSE_IMPROVED_TRADE_AGREEMENT_TITLE: "Handelsabkommen vorschlagen"
+ PROPOSE_IMPROVED_TRADE_AGREEMENT_ACTION_DESC: "Ein Handelsabkommen mit dieser Nation vorzuschlagen, sollte für beide Seiten von Vorteil sein. Es wird sowohl unserer als auch ihrer Nation zu größerem Wohlstand verhelfen.\n\nDie folgenden Faktoren sind dafür ausschlaggebend, wie die KI auf das Abkommen reagieren wird:\nGleiche Regierung, Meinung, Einfluss, Fraktion, EU-Mitgliedschaft, NATO-Mitgliedschaft.\n"
+ PROPOSE_TRADE_AGREEMENT_TOOLTIP: "Ist derzeit nicht in einem Handelsabkommen mit §Y[This.GetNameWithFlag]§!\n"
+ PROPOSAL_MISSING_TOOLTIP: "Erwägt derzeit kein Angebot von §Y[This.GetNameWithFlag]§!\n"
+ PROPOSE_TRADE_AGREEMENT_DESC: "Ein Handelsabkommen zwischen unseren beiden Nationen wird den Handelseinfluss um §G50§! und die Meinung mit §Y[This.GetNameWithFlag]§! um §G25§! erhöhen, sollte es angenommen werden. Die beiden Nationen werden auch §G~1%§! Einfluss aufeinander erhalten."
+ PROPOSE_TRADE_AGREEMENT_ACCEPT_TT: "[THIS.GetNameWithFlag] Die Vereinbarung wurde angenommen!"
+ PROPOSE_TRADE_AGREEMENT_ACCEPT_DESC: "[THIS.GetNameWithFlag] hat die Vereinbarung akzeptiert, was folgende Auswirkungen hat:\n\nHandelseinfluss um §G50§!\nMeinungszuwachs um §G25§!\nErhöhter Einfluss von etwa §G~1%§!\n"
+ PROPOSE_TRADE_AGREEMENT_REJECT_TT: "[THIS.GetNameWithFlag] Die Vereinbarung wurde abgelehnt!"
+ PROPOSE_TRADE_AGREEMENT_REJECT_DESC: "Leider hat [THIS.GetNameWithFlag] unser Handelsabkommen abgelehnt. Vielleicht können wir an einem anderen Tag ein Abkommen unterzeichnen."
+
+ CANCEL_TRADE_AGREEMENT_TITLE: "Handelsabkommen beenden"
+ CANCEL_TRADE_AGREEMENT_ACTION_DESC: "Die Beendigung des Handelsabkommens mit dieser Nation wird zu Spannungen zwischen unseren Nationen führen."
+ CANCEL_TRADE_AGREEMENT_TOOLTIP: "Ist derzeit in einem Handelsabkommen mit §Y[This.GetNameWithFlag]§!\n"
+ CANCEL_TRADE_AGREEMENT_DESC: "Die Beendigung des Handelsabkommens hat folgende Auswirkungen:\n\nHandelseinfluss sinkt um §R50§!\nMeinungsabnahme um §R25§! mit einem tickenden Meinungsmodifikator von §R15§! aufgrund des Bruchs des Abkommens\n"

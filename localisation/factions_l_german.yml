@@ -1,0 +1,181 @@
+﻿l_german:
+ #Factions with unique features
+ NATO: "NATO"
+ NATO_member: "NATO-Mitglied"
+ NATO_member_desc: "Die North Atlantic Treaty Organization (NATO) ist ein Verteidigungsbündnis, das sich aus den USA, Kanada und mehreren europäischen Ländern zusammensetzt. Ursprünglich ein rein politisches Bündnis, entwickelte sich die NATO schnell zu einem antisowjetischen Militärbündnis. Nach dem Zusammenbruch der Sowjetunion hat die NATO eine zunehmend interventionistische Rolle in der Welt eingenommen. Der Hauptzweck des Bündnisses besteht jedoch nach wie vor in der Verteidigung seiner Mitgliedsstaaten, und ein Angriff auf einen Mitgliedsstaat ist ein Angriff auf alle."
+ NATO_member_tooltip: "§RFaction Special Rules§!:\n- Nur der Fraktionsführer kann für andere Länder bürgen\n- Länder können nur zu Verteidigungskriegen einberufen werden\n- Ein- und Austritt in und aus der Fraktion wird durch Entscheidungen/Ereignisse kontrolliert"
+ NATO_guarantee_rule_tt: "§Nur der Fraktionsvorsitzende der NATO kann für andere Länder garantieren!"
+ NATO_call_ally_rule_tt: "§Die Mitglieder der NATO können Verbündete nur in Verteidigungskriegen anrufen!"
+ NATO_join_ally_rule_tt: "§RNATO-Mitglieder können sich nur in Verteidigungskriegen mit Verbündeten zusammenschließen!"
+ NATO_join_faction_rule_tt: "§Länder können der NATO nicht auf normalem Wege beitreten!"
+ NATO_offer_join_faction_rule_tt: "§Andere Länder können nicht auf normalem Wege zum Beitritt zur NATO eingeladen werden!"
+ NATO_kick_from_faction_rule_tt: "§RNATO-Staaten können nicht auf normalem Wege aus der NATO ausgeschlossen werden!"
+ NATO_leave_faction_rule_tt: "§Die NATO-Staaten können nicht auf normalem Wege aus der NATO austreten§!"
+ NATO_dismantle_faction_rule_tt: "§RNATO kann nicht aufgelöst werden§!"
+
+ RESISTANCE_AXIS: "Achse des Widerstands"
+ faction_resistance_axis_member: "Achse des Widerstands"
+ faction_resistance_axis_member_desc: "Achse des Widerstands bezieht sich auf ein informelles Bündnis zwischen Iran, Syrien und der Hisbollah (später auch irakische Schiitenmilizen und Houthi-Rebellen). Es handelt sich um einen Zusammenschluss von Ländern, die sich dem israelischen, saudischen und westlichen Einfluss im Nahen Osten widersetzen."
+ faction_resistance_axis_member_TT: "§RFaction Special Rule§!:\n- Nur schiitische Länder sind in der Fraktion erlaubt"
+ resistance_axis_join_faction_rule_tt: "§Nur schiitische Länder können der Achse des Widerstands beitreten!"
+ resistance_axis_offer_join_faction_rule_tt: "§Nur schiitische Länder können der Achse des Widerstands beitreten!"
+
+ CSTO: "CSTO"
+ CSTO_member: "CSTO-Mitglied"
+ CSTO_member_desc: "Die Organisation des Vertrags über kollektive Sicherheit ist ein defensives Militärbündnis, das sich aus postsowjetischen Staaten zusammensetzt. Die Organisation entstand nach dem Zusammenbruch der Sowjetunion und der Gründung der Gemeinschaft Unabhängiger Staaten, als die Länder versuchten, die Einheit der postsowjetischen Nationen aufrechtzuerhalten. Sie entwickelte sich schließlich zu einem eigenständigen Militärbündnis."
+ CSTO_member_tooltip: "§RFaction Special Rules§!:\n- Nur Länder, die einst Teil der Sowjetunion waren, sind in der Fraktion erlaubt\n- Länder können nur zu Verteidigungskriegen aufgerufen werden"
+ CSTO_call_ally_rule_tt: "§RCSTO-Mitglieder können Verbündete nur in Verteidigungskriegen anrufen!"
+ CSTO_join_ally_rule_tt: "§RCSTO-Mitglieder können sich nur in Verteidigungskriegen Verbündeten anschließen!"
+ CSTO_join_faction_rule_tt: "§Nur postsowjetische Länder können der CSTO beitreten!"
+ CSTO_offer_join_faction_rule_tt: "§Nur postsowjetische Länder können zur CSTO eingeladen werden!"
+
+ faction_fifth_international_member: "5. Internationale"
+ faction_fifth_international_member_desc: "Die 5. Internationale wurde als Nachfolgerin von Trotzkis 4. Internationale und Stalins 3. Internationale gegründet, um alle Kommunisten der Welt gegen die kapitalistische Bedrohung zu vereinen."
+ faction_fifth_international_member_TT: "§RFaction Special Rules§!:\n- Nur Länder, die von aufstrebenden oder blockfreien Kommunisten regiert werden, sind in der Fraktion erlaubt"
+ faction_fifth_international_member_join_faction_rule_tt: "§Wir müssen von [Kommunistischer Staat_L] oder [Neutraler_Kommunismus_L] regiert werden, um der 5. Internationale beizutreten!"
+ faction_fifth_international_member_offer_join_faction_rule_tt: "§Sie müssen von [Kommunistischer Staat_L] oder [Neutraler_Kommunismus_L] regiert werden, um der 5. Internationale beizutreten!"
+
+ UKR_baltic_black_sea_union_faction: "Ostsee-Schwarzmeer-Union"
+ faction_baltic_black_sea_union_member: "Ostsee-Schwarzmeer-Union"
+ faction_baltic_black_sea_union_member_desc: "Die Baltisch-Schwarzmeer-Union ist ein Nachfolger des Intermariums. Mit einer Gruppe von Nationen, die sich von der Ostsee bis zum Schwarzen Meer verbündet haben, wird sie als Puffer zwischen dem Osten und dem Westen fungieren."
+ faction_baltic_black_sea_union_member_TT: "§RFaction Special Rules§!:\n- Nur Länder, denen die Union ursprünglich vorgeschlagen wurde, dürfen der Fraktion angehören\n- Länder können nur zu Verteidigungskriegen aufgerufen werden"
+ faction_baltic_black_sea_union_member_call_ally_rule_tt: "§Die Mitglieder der Ostseeschwarzmeerunion können Verbündete nur in Verteidigungskriegen anrufen!"
+ faction_baltic_black_sea_union_member_join_ally_rule_tt: "§Die Mitglieder der Ostseeschwarzmeerunion können sich nur in Verteidigungskriegen mit Verbündeten zusammenschließen!"
+ faction_baltic_black_sea_union_member_join_faction_rule_tt: "§Nur die Länder, denen die Union ursprünglich vorgeschlagen wurde, dürfen an der Ostsee-Schwarzmeer-Union teilnehmen!"
+ faction_baltic_black_sea_union_member_offer_join_faction_rule_tt: "§Nur die Länder, denen die Union ursprünglich vorgeschlagen wurde, dürfen an der Ostsee-Schwarzmeer-Union teilnehmen!"
+
+ Jerusalem_Defence_Pact: "Jerusalemer Verteidigungspakt"
+ faction_jerusalem_defence_pact_member: "Jerusalemer Verteidigungspakt"
+ faction_jerusalem_defence_pact_member_desc: "Der Jerusalemer Verteidigungspakt ist ein von Syrien gegründetes Militärbündnis zum Schutz der Heiligen Stadt Jerusalem."
+ faction_jerusalem_defence_pact_member_TT: "§RFaction Special Rule§!:\n- Nur Israel und seine Nachbarn sind in der Fraktion erlaubt"
+ faction_jerusalem_defence_pact_member_join_faction_rule_tt: "§Nur Israel und seine Nachbarn können dem Jerusalemer Verteidigungspakt beitreten!"
+ faction_jerusalem_defence_pact_member_offer_join_faction_rule_tt: "§Nur Israel und seine Nachbarn können dem Jerusalemer Verteidigungspakt beitreten!"
+
+ PENINSULA_SHIELD: "Golf-Kooperationsrat"
+ idea_gcc_member_state: "Mitglied des Golf-Kooperationsrates"
+ idea_gcc_member_state_desc: "Der Golf-Kooperationsrat ist ein politischer und wirtschaftlicher Zusammenschluss aller arabischen Monarchien am Persischen Golf."
+ idea_gcc_member_state_TT: "§RFaction Special Rules§!:\n- Sobald §YA Robust Alliance§! abgeschlossen ist, sind nur Länder, die Teil des GCC sind, in der Fraktion erlaubt"
+ gcc_member_state_join_faction_rule_tt: "§Nur Mitglieder des Golfkooperationsrates können der Fraktion des Golfkooperationsrates beitreten!"
+ gcc_member_state_offer_join_faction_rule_tt: "§Nur Mitglieder des Golfkooperationsrates können der Fraktion des Golfkooperationsrates beitreten!"
+
+ british_commonwealth: "Das Commonwealth"
+ faction_british_commonwealth: "Das Commonwealth"
+ faction_british_commonwealth_desc: "Das Vereinigte Königreich hat beschlossen, den Commonwealth zu einem stärker militärisch orientierten Bündnis umzugestalten."
+ faction_british_commonwealth_TT: "§RFaction Special Rule§!:\n- Nur Länder mit dem §YCommonwealth of Nations Member§! sind in der Faction erlaubt"
+ faction_british_commonwealth_join_faction_rule_tt: "§Nur Mitglieder des Commonwealth of Nations können dem British Commonwealth beitreten!"
+ faction_british_commonwealth_offer_join_faction_rule_tt: "§Nur Mitglieder des Commonwealth of Nations können dem British Commonwealth beitreten!"
+
+ monroe_alliance: "Monroe-Allianz"
+ faction_monroe_alliance: "Monroe-Allianz"
+ faction_monroe_alliance_desc: "Die Vereinigten Staaten haben die Idee der Monroe-Allianz wiederbelebt, einen Plan zur Verteidigung der amerikanischen Nationen gegen Invasionen."
+ faction_monroe_alliance_TT: "§RFaction Special Rules§!:\n- Nur Länder in Nord- und Südamerika sind in der Fraktion erlaubt\n- Länder können nur zu Verteidigungskriegen aufgerufen werden"
+ faction_monroe_alliance_call_ally_rule_tt: "§Mitglieder der Monroe Alliance können Verbündete nur in Verteidigungskriegen anrufen!"
+ faction_monroe_alliance_join_ally_rule_tt: "§Mitglieder der Monroe-Allianz können sich Verbündeten nur in Verteidigungskriegen anschließen!"
+ faction_monroe_alliance_join_faction_rule_tt: "§Nur Länder in Nord- und Südamerika können der Monroe-Allianz beitreten!"
+ faction_monroe_alliance_offer_join_faction_rule_tt: "§Nur Länder in Nord- und Südamerika können der Monroe-Allianz beitreten!"
+
+ chinese_united_front: "Chinesische Einheitsfront"
+ faction_chinese_united_front: "Chinesische Einheitsfront"
+ faction_chinese_united_front_desc: "China hat wieder einmal alle chinesischen Nationen vereint, um gegen gemeinsame Bedrohungen zu kämpfen."
+ faction_chinese_united_front_TT: "§RFaction Special Rule§!:\n- Nur chinesische Nationen sind in der Fraktion erlaubt"
+ faction_chinese_united_front_join_faction_rule_tt: "§Nur chinesische Nationen können der Chinesischen Einheitsfront beitreten!"
+ faction_chinese_united_front_offer_join_faction_rule_tt: "§Nur chinesische Nationen können der Chinesischen Einheitsfront beitreten!"
+
+ SHANGHAI_PACT: "Shanghai-Pakt"
+ sco_member: "Shanghaier Organisation für Zusammenarbeit Mitglied"
+ sco_member_desc: "Die Shanghaier Organisation für Zusammenarbeit (SOZ) ist eine eurasische politische, wirtschaftliche und sicherheitspolitische Organisation, deren Gründung am 15. Juni 2001 in Shanghai, China, von den Staats- und Regierungschefs Chinas, Kasachstans, Kirgisistans, Russlands, Tadschikistans und Usbekistans bekannt gegeben wurde."
+ sco_member_econ_desc: "Die Shanghaier Organisation für Zusammenarbeit (SOZ) ist eine eurasische politische, wirtschaftliche und sicherheitspolitische Organisation, deren Gründung am 15. Juni 2001 in Shanghai, China, von den Staats- und Regierungschefs Chinas, Kasachstans, Kirgisistans, Russlands, Tadschikistans und Usbekistans bekannt gegeben wurde."
+ sco_member_pol_desc: "Die Shanghaier Organisation für Zusammenarbeit (SOZ) ist eine eurasische politische, wirtschaftliche und sicherheitspolitische Organisation, deren Gründung am 15. Juni 2001 in Shanghai, China, von den Staats- und Regierungschefs Chinas, Kasachstans, Kirgisistans, Russlands, Tadschikistans und Usbekistans bekannt gegeben wurde."
+ sco_member_mil_desc: "Die Shanghaier Organisation für Zusammenarbeit (SOZ) ist eine eurasische politische, wirtschaftliche und sicherheitspolitische Organisation, deren Gründung am 15. Juni 2001 in Shanghai, China, von den Staats- und Regierungschefs Chinas, Kasachstans, Kirgisistans, Russlands, Tadschikistans und Usbekistans bekannt gegeben wurde."
+ sco_member_tooltip: "§Sonderregeln für Fraktionen§!:\n- China kann seine Fraktion nicht auflösen\n- China kann nur andere SCO-Mitglieder in seine Fraktion einladen\n- Reguläre SCO-Mitglieder können anderen Fraktionen beitreten"
+ sco_member_leave_faction_rule_tt: "§China kann den Shanghai-Pakt nicht verlassen!"
+ sco_member_dismantle_faction_rule_tt: "§China kann den Shanghai-Pakt nicht aufkündigen!"
+ sco_member_join_faction_rule_tt: "§Nur Mitglieder der Shanghaier Organisation für Zusammenarbeit können dem Shanghaier Pakt beitreten!"
+ sco_member_offer_join_faction_rule_tt: "§Nur Mitglieder der Shanghaier Organisation für Zusammenarbeit können dem Shanghaier Pakt beitreten!"
+
+ # Normal Factions #
+
+ #Syria
+ Levant_Liberation_Committee: "Levante-Liberalisierungsliga"
+ Peninsula_Sword: "Schwert der Halbinsel"
+
+ #Gulf Countries
+ UNITED_ARAB_ALLIANCE: "Vereinigte Arabische Allianz"
+
+ #English Factions
+ british_alliance: "Angelsächsische Allianz"
+
+ #United States
+ freedom_league: "Freiheitsliga"
+ washington_pact: "Washingtoner Pakt"
+
+ #Japan
+ japanese_alliance_democratic: "Ostasiatische Allianz"
+ east_asian_pact: "Ostasien-Pakt"
+ japanese_alliance_communist: "Rote Wohlstandssphäre"
+
+ #Brazil
+ unasul: "UNASUL"
+
+ #Republic of Korea
+ USA_ROK: "USA-ROK-Allianz"
+
+ #Poland
+ Eastern_europe_pact: "Osteuropapakt"
+
+ #Denmark
+ KALMAR_UNION: "Die Kalmarer Union"
+
+ #Greece
+ Balkan_Socialist_Union: "Sozialistische Balkanunion"
+
+ #EU, USoE
+ Fossil_Energy_Pact_faction: "Fossiler Energiepakt"
+ Eurasian_Alliance: "Eurasische Allianz"
+ Western_Alliance: "Westliche Allianz"
+
+ #Armenia
+ Anti_Turanic_Coalition: "Anti-Turan-Koalition"
+
+ #Brazil
+ UNASUL_faction: "UNASUL"
+
+ #Sweden
+ Northern_Alliance: "Nordallianz"
+
+ # MP custom factions
+ TEAM_A: "Mannschaft A"
+ TEAM_B: "Mannschaft B"
+ TEAM_C: "Mannschaft C"
+ TEAM_D: "Mannschaft D"
+
+ # Generic Faction Names
+ FACTION_NAME_DEMOCRATIC_1: "Organisation für internationale Sicherheit"
+ FACTION_NAME_DEMOCRATIC_2: "Weltverteidigungsvertrag"
+ FACTION_NAME_DEMOCRATIC_3: "Organisation für Frieden und Stabilität"
+ FACTION_NAME_DEMOCRATIC_4: "Präemptive Verteidigung des $CONTINENT$Vertrags"
+ FACTION_NAME_DEMOCRATIC_5: "$CONTINENT_ADJ$Koalition"
+ FACTION_NAME_DEMOCRATIC_6: "$CONTINENT_ADJ$ Föderation"
+
+ FACTION_NAME_COMMUNIST_1: "Friedensinitiative"
+ FACTION_NAME_COMMUNIST_2: "Selbstbestimmungsliga"
+ FACTION_NAME_COMMUNIST_3: "Kollektiver $CONTINENT_ADJ$ Verteidigungspakt"
+ FACTION_NAME_COMMUNIST_4: "Der $CONTINENT_ADJ$Selbstbestimmungspakt"
+ FACTION_NAME_COMMUNIST_5: "Die $LEADER_COUNTRY_ADJ$ Kompakt"
+
+ FACTION_NAME_FASCIST_1: "$CONTINENT_ADJ$ Kalifat"
+ FACTION_NAME_FASCIST_2: "Islamisches Kalifat von $CONTINENT$"
+ FACTION_NAME_FASCIST_3: "Die $LEADER_COUNTRY_ADJ$ Ummah"
+ FACTION_NAME_FASCIST_4: "Anhänger der $LEADER_COUNTRY$"
+ FACTION_NAME_FASCIST_5: "Pfad der $CONTINENT_ADJ$Rechtschaffenheit"
+
+ FACTION_NAME_NONALIGNED_1: "Blockfreie $CONTINENT_ADJ$ Staaten"
+ FACTION_NAME_NONALIGNED_2: "Blockfreie $CONTINENT_ADJ$ Organisation für Frieden und Stabilität"
+ FACTION_NAME_NONALIGNED_3: "Die $CONTINENT$Allianz"
+ FACTION_NAME_NONALIGNED_4: "Konföderierte $CONTINENT_ADJ$ Nationen"
+ FACTION_NAME_NONALIGNED_5: "Die $LEADER_COUNTRY$Koalition"
+
+ FACTION_NAME_NATIONALIST_1: "Nationalistische Verteidigungsliga"
+ FACTION_NAME_NATIONALIST_2: "Die Verteidigung des $LEADER_COUNTRY_ADJ$Wertepakts"
+ FACTION_NAME_NATIONALIST_3: "$LEADER_COUNTRY_ADJ$ Nationaler Pakt für Wiederaufbau"
+ FACTION_NAME_NATIONALIST_4: "Make $LEADER_COUNTRY$ Great Again Pact"

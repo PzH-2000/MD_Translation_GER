@@ -1,0 +1,5 @@
+﻿l_german:
+
+ pmc_events.1.t: "[From.GetNameDef] ruft ihre Söldner zurück"
+ pmc_events.1.d: "Einige unserer Söldnereinheiten werden auf Befehl ihres Oberherrn nach [From.GetNameDef] zurückgerufen, wo sie eine Entschädigung für die vorzeitige Vertragsbeendigung erhalten, aber das war's auch schon."
+ pmc_events.1.a: "Das ist bedauerlich."

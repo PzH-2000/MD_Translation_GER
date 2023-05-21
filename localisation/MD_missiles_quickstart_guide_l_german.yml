@@ -1,0 +1,29 @@
+﻿l_german:
+
+ ###########################
+ ###########################
+ ### QUCKSTART GUIDE GUI ###
+ ###########################
+ ###########################
+
+ MISSILES_QUICKSTART_GUIDE: "SCHNELLSTARTANLEITUNG FÜR RAKETEN"
+
+ TOPIC_BUTTON: "[topic_button_loc]"
+
+ topic_button_loc_1_loc_key: "Raketenproduktion"
+ topic_button_loc_2_loc_key: "Raketen abfeuern"
+ topic_button_loc_3_loc_key: "Auswahl der Ziele"
+ topic_button_loc_4_loc_key: "Luftverteidigung"
+ topic_button_loc_5_loc_key: "Raketenabwehr"
+ topic_button_loc_6_loc_key: "Weltraumstart"
+ topic_button_loc_7_loc_key: "Satellitensysteme"
+ topic_button_loc_8_loc_key: "Auf dem Weg zur Kernkraft"
+
+SCREENSHOT_NUMBER: "[screenshot_number_loc]"
+screenshot_number_loc_key: "[?var_screenshot_number|C0]"
+
+quickstart_guide_screenshot_texture: "[quickstart_guide_screenshot_texture]"
+
+ ################
+ ### Chapters ###
+ ################
