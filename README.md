@@ -14,9 +14,9 @@ I'm excited to welcome any contributions and kindly ask you to point out any err
 
 
 ## Author(s) & Contributor(s) & Sponsor(s)
-(A) [@NiclqsGER](https://github.com/NiclqsGER)
-(C) Haffen2003
-(S) Benno2406
+(A) [@NiclqsGER](https://github.com/NiclqsGER)<br>
+(C) Haffen2003<br>
+(S) Benno2406<br>
 
 
 ## FAQ
