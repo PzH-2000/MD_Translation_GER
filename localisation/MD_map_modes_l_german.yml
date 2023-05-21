@@ -17,7 +17,7 @@
  MAPMODE_INFLUENCE_MAP_MODE_NAME: "Einflussnahme"
  MAPMODE_INFLUENCE_MAP_MODE: "Einflussnahme"
  MAPMODE_INFLUENCE_MAP_MODE_DESCRIPTION: "Der Spieler ist grün eingefärbt, in rosa Nationen ist man der erste Einflussnehmer, in blau ist man der zweite oder dritte Einflussnehmer, in hellviolett ist man ein Einflussnehmer zwischen der vierten und siebten Position, und alles, was nicht eingefärbt ist, hat keinen Einfluss. Der Kartenmodus wird wöchentlich aktualisiert."
- influence_map_mode_tooltip: "Modus "Einflusskarte"
+ influence_map_mode_tooltip: "Modus 'Einflusskarte"
  influence_map_mode_tooltip_delayed: "Der Spieler ist grün eingefärbt, in rosa Nationen ist man der erste Einflussnehmer, in blau ist man der zweite oder dritte Einflussnehmer, in hellviolett ist man ein Einflussnehmer zwischen der vierten und siebten Position, und alles, was nicht eingefärbt ist, hat keinen Einfluss. Der Kartenmodus wird wöchentlich aktualisiert."
  MAPMODE_GCC_MAP_MODE_NAME: "GCC-Kartenmodus"
  MAPMODE_GCC_MAP_MODE: "GCC-Kartenmodus"

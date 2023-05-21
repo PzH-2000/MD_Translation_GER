@@ -2,7 +2,7 @@
 
  # DYNAMIC MODIFIER
  education_dynamic_modifier: "Alphabetisierungsrate Dynamischer Modifikator"
- education_dynamic_modifier_desc: "Mit mehr Mitteln, einer ruhigen Hand am Ruder und etwas Geduld kann diese Nation erwarten, dass die Alphabetisierungsrate ansteigt.\n\nEs gibt jedoch auch Vorteile, die Alphabetisierungsrate zu senken, wenn die Nation zum Beispiel eine "Agrarwirtschaft" hat..."
+ education_dynamic_modifier_desc: "Mit mehr Mitteln, einer ruhigen Hand am Ruder und etwas Geduld kann diese Nation erwarten, dass die Alphabetisierungsrate ansteigt.\n\nEs gibt jedoch auch Vorteile, die Alphabetisierungsrate zu senken, wenn die Nation zum Beispiel eine 'Agrarwirtschaft' hat..."
 
  # DECISIONS
  education_category: "Alphabetisierungsraten in [ROOT.GetNameWithFlag]"

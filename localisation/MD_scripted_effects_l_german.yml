@@ -39,8 +39,8 @@
  CONSCRIPTION_INCREASE_BLOCKED_TT: "§Wir können unser §YWehrpflichtgesetz§! jetzt nicht mehr erhöhen! (Verbleibende Tage: [?conscription_increase_blocked:days_left|Y0])\n"
  CONSCRIPTION_DECREASE_BLOCKED_TT: "§Wir können unser §YWehrpflichtgesetz§! jetzt nicht herabsetzen! (Verbleibende Tage: [?conscription_decrease_blocked:days_left|Y0])\n"
 
- BLOCK_WOMEN_CONSCRIPTION_INCREASE_TT: "§Wir werden die Zahl der "Frauen im Militär" ein Jahr lang nicht erhöhen können!"
- BLOCK_WOMEN_CONSCRIPTION_DECREASE_TT: "§Wir werden die Zahl der "Frauen im Militär" ein Jahr lang nicht verringern können!"
+ BLOCK_WOMEN_CONSCRIPTION_INCREASE_TT: "§Wir werden die Zahl der 'Frauen im Militär' ein Jahr lang nicht erhöhen können!"
+ BLOCK_WOMEN_CONSCRIPTION_DECREASE_TT: "§Wir werden die Zahl der 'Frauen im Militär' ein Jahr lang nicht verringern können!"
  WOMEN_CONSCRIPTION_INCREASE_BLOCKED_TT: "§Wir können unsere §YFrauen im Militär§! zum jetzigen Zeitpunkt nicht erhöhen! (Verbleibende Tage: [?women_conscription_increase_blocked:days_left|Y0])\n"
  WOMEN_CONSCRIPTION_DECREASE_BLOCKED_TT: "§Wir können unsere §YFrauen im Militär§! jetzt nicht verringern! (Verbleibende Tage: [?women_conscription_decrease_blocked:days_left|Y0])\n"
 

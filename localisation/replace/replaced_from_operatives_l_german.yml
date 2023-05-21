@@ -44,7 +44,7 @@
  upgrade_passive_defense: "Spionageabwehr"
  upgrade_passive_defense_desc: "§Ausländische Agenten, die auf unserem Territorium operieren, stellen ein ernsthaftes Risiko für die nationale Sicherheit dar. Wir müssen in unsere Fähigkeiten zur Spionageabwehr investieren, um die Bedrohung, die diese Agenten für unser Land darstellen, zu minimieren."
  upgrade_anti_partisan: "Aufstandsbekämpfung"
- upgrade_anti_partisan_desc: "§Im 21. Jahrhundert hat die asymmetrische Kriegsführung gegen nichtstaatliche Gruppen dramatisch zugenommen. Es wäre unklug, diese "neuen Kriege" in den Ausbildungsprogrammen unserer Agenten zu vernachlässigen!""
+ upgrade_anti_partisan_desc: "§Im 21. Jahrhundert hat die asymmetrische Kriegsführung gegen nichtstaatliche Gruppen dramatisch zugenommen. Es wäre unklug, diese 'neuen Kriege' in den Ausbildungsprogrammen unserer Agenten zu vernachlässigen!'"
  upgrade_blueprint_stealing: "Industriespionage"
  upgrade_blueprint_stealing_desc: "§Wir wissen, dass unser Feind geheime Projekte für experimentelle Waffen und Fahrzeuge hat. Was wir nicht wissen, ist, um welche Projekte es sich genau handelt und was sie bauen. Indem wir die experimentellen Waffenabteilungen unserer Feinde hacken, erhalten wir nicht nur die Möglichkeit, genau zu erfahren, was sie gegen uns einsetzen wollen, sondern auch die einzigartige Gelegenheit, diese Informationen zu nutzen, um unsere eigene Waffenabteilung voranzubringen."
  upgrade_portable_radios: "Gesicherte Kommunikation"

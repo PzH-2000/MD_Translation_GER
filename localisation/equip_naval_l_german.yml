@@ -3,7 +3,7 @@
  corvette: "Korvetten"
  corvette_desc: "Die kleinste Schiffsklasse, die als Kriegsschiff gilt. Schiffe der Korvettenklasse sind billig und entbehrlicher als ihre größeren Gegenstücke."
  frigate: "Fregatten"
- frigate_desc: "Fregatten bilden das Herzstück vieler moderner Marinen und können als Teil von "Blauwasser"-Marinestreitkräften eingesetzt werden."
+ frigate_desc: "Fregatten bilden das Herzstück vieler moderner Marinen und können als Teil von 'Blauwasser'-Marinestreitkräften eingesetzt werden."
  destroyer: "Zerstörer"
  destroyer_desc: "Diese schnellen, manövrierfähigen und ausdauernden Kriegsschiffe sind für den Geleitschutz größerer Schiffe in einer Flotte vorgesehen, können aber auch unabhängig davon eingesetzt werden."
  stealth_destroyer: "Stealth-Zerstörer"

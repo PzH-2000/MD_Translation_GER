@@ -211,7 +211,7 @@
  AC_14_cooldown_tt: "Wenn das Land das Angebot annimmt, beginnt eine Abkühlungsphase von 14 Tagen§! zu laufen. Sie werden keinen weiteren Einfluss gewinnen, unabhängig davon, wie viel Geld Sie während dieser Abkühlungsphase in dieses Land stecken."
  AC_30_cooldown_tt: "Wenn das Land das Angebot annimmt, beginnt eine Abkühlungsphase von 30 Tagen, die mit der Annahme beginnt. Sie werden keinen weiteren Einfluss gewinnen, unabhängig davon, wie viel Geld Sie während dieser Abkühlungsphase in dieses Land stecken."
  AC_build_button_tt_2: "Brechen Sie das aktive Projekt ab (Sie können pro Tag nur eine Investition in diesem Zustand tätigen)."
- AC_build_button_tt_b: "Wenn Sie auf diese Schaltfläche klicken, wird der Controller des Staates um eine Genehmigung gebeten. Wenn dieser zustimmt, wird ein Bauprojekt auf der Registerkarte "Entscheidungen" gestartet. Dieses Projekt wird so lange wiederholt, bis alle Gebäude in der Warteschlange fertiggestellt sind.\n\n§Die Baugeschwindigkeit wird um -25% reduziert (es gelten die Modifikatoren für die Baugeschwindigkeit deines Landes).§![From.AC_GetPoliticalPowerCost]\n\n§Du kannst immer nur ein aktives Bauprojekt haben.\n\nEin Staat kann nicht ein Bauprojekt von mehreren Ländern aktiv haben.\n\nDer Kontrolleur dieses Staates wird sich weigern, wenn er eine negative Meinung von dir hat.§!"
+ AC_build_button_tt_b: "Wenn Sie auf diese Schaltfläche klicken, wird der Controller des Staates um eine Genehmigung gebeten. Wenn dieser zustimmt, wird ein Bauprojekt auf der Registerkarte 'Entscheidungen' gestartet. Dieses Projekt wird so lange wiederholt, bis alle Gebäude in der Warteschlange fertiggestellt sind.\n\n§Die Baugeschwindigkeit wird um -25% reduziert (es gelten die Modifikatoren für die Baugeschwindigkeit deines Landes).§![From.AC_GetPoliticalPowerCost]\n\n§Du kannst immer nur ein aktives Bauprojekt haben.\n\nEin Staat kann nicht ein Bauprojekt von mehreren Ländern aktiv haben.\n\nDer Kontrolleur dieses Staates wird sich weigern, wenn er eine negative Meinung von dir hat.§!"
  ac_influence_icon_tooltip: "[AC_GainTooltip]"
  influence_gain_tooltip_yes_tt: "Mit diesem Investitionsprojekt werden wir an Einfluss gewinnen."
  influence_gain_tooltip_no_tt: "Wir werden mit diesem Investitionsprojekt nicht an Einfluss gewinnen.\n"
@@ -246,7 +246,7 @@
  AC_ITA_wasted_foreign_funds: "Vorsicht, §YMafia, die Investitionsprojekte unterwandert§! kann die Kosten um bis zu §R+200%§!\n"
  # Idea Modifiers - Increases Cost
 
- # Misc - Infrastructure "Time increase" for construction: "Erhöhung der Zeit"
+ # Misc - Infrastructure "Time increase' for construction: 'Erhöhung der Zeit"
  AC_Infrastructure_0: "§YInfrastucture§! Stufe 0 §R+50%§!"
  AC_Infrastructure_1: "§YInfrastucture§! Stufe 1 §R+40%§!"
  AC_Infrastructure_2: "§YInfrastucture§! Stufe 2 §R+30%§!"

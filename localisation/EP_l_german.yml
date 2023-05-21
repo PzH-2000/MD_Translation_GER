@@ -4,8 +4,8 @@
  EP_main_cat_desc: "Unsere aktuellen Waffengeschäfte werden hier angezeigt. \n\nMit jeder abgeschlossenen Transaktion erhalten wir Ausrüstung eines bestimmten Typs im Wert von etwa einem Bataillon. \n\nBestellungen verlängern sich automatisch, bis wir sie stornieren oder der Verkäufer uns ein Embargo auferlegt. In diesem Fall werden die laufenden Bestellungen zwar abgeschlossen, aber nicht verlängert.\n\nAktive Bestellungen: [?active_equipment_orders]/5"
 
  order_number_0_mission: "§YOrder 1:§!  [?order_equipment_producer^0.GetNameWithFlag]"
- #Order 1 §Y[AC_GetConstructionTypeProject0]§! x[?project_build_amount^0] in [From.GetName]"
- #[?var:order_number_country_tag.GetNameWithFlag]"
+ #Order 1 §Y[AC_GetConstructionTypeProject0]§! x[?project_build_amount^0] in [From.GetName]'
+ #[?var:order_number_country_tag.GetNameWithFlag]'
  order_number_1_mission: "§YOrder 2:§!  [?order_equipment_producer^1.GetNameWithFlag]"
  order_number_2_mission: "§YOrder 3:§!  [?order_equipment_producer^2.GetNameWithFlag]"
  order_number_3_mission: "§YOrder 4:§!  [?order_equipment_producer^3.GetNameWithFlag]"

@@ -245,11 +245,11 @@
  AGRI_random.100.B: "So ein Mist..."
 
  AGRI_random.100.t3: "Kaum etwas funktioniert"
- AGRI_random.100.d3: "\"Von wegen "wie neu"! Fast alle Geräte, die wir beschaffen konnten, sind völlig kaputt, haben sich festgefressen oder geben einfach kein Lebenszeichen von sich, die Farmer sind ziemlich sauer auf uns...""
+ AGRI_random.100.d3: "'Von wegen 'wie neu'! Fast alle Geräte, die wir beschaffen konnten, sind völlig kaputt, haben sich festgefressen oder geben einfach kein Lebenszeichen von sich, die Farmer sind ziemlich sauer auf uns...'"
  AGRI_random.100.C: "Haben wir die Quittung aufbewahrt?"
 
  AGRI_random.2.t: "Die Felder sehen ziemlich trocken aus..."
- AGRI_random.2.d: "Zu dieser Jahreszeit sind unsere Felder normalerweise viel nachsichtiger als jetzt, und unser Landwirtschaftsminister ist besorgt, dass dies zu einer ernsthafteren Dürre führen könnte, als nur "ein bisschen zu viel Sonne". "Wenn das Geld knapp ist, können wir immer noch versuchen, die Wasservorräte unserer Nachbarn abzuschöpfen...""
+ AGRI_random.2.d: "Zu dieser Jahreszeit sind unsere Felder normalerweise viel nachsichtiger als jetzt, und unser Landwirtschaftsminister ist besorgt, dass dies zu einer ernsthafteren Dürre führen könnte, als nur 'ein bisschen zu viel Sonne'. 'Wenn das Geld knapp ist, können wir immer noch versuchen, die Wasservorräte unserer Nachbarn abzuschöpfen...'"
  AGRI_random.2.A: "Ehh, das sollten wir selbst lösen..."
  AGRI_random.2.B: "Nun, es ist nicht so, dass sie es vermissen würden."
  AGRI_random.2.C: "Wenn du dir solche Sorgen machst, bete um Regen!"
@@ -316,7 +316,7 @@
  AGRI_random.30.D: "Nun, Scheiße..."
 
  AGRI_random.4.t: "Eine reiche Ernte!"
- AGRI_random.4.d: "Unsere Landwirte melden schlechte Ernten und fragen das Landwirtschaftsministerium, was mit den überschüssigen Erträgen geschehen soll. Wir können sie entweder verkaufen oder unsere Vorräte aufstocken, wenn es nicht so regnerisch ist.""
+ AGRI_random.4.d: "Unsere Landwirte melden schlechte Ernten und fragen das Landwirtschaftsministerium, was mit den überschüssigen Erträgen geschehen soll. Wir können sie entweder verkaufen oder unsere Vorräte aufstocken, wenn es nicht so regnerisch ist.'"
  AGRI_random.4.A: "Ein zusätzliches Einkommen ist immer gut."
  AGRI_random.4.B: "Haben wir ein Silo für all dies?"
 
