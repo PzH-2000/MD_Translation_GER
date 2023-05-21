@@ -1,7 +1,0 @@
-﻿l_german:
- TRIGGER_HAS_VOLUNTEERS_MORE_THAN:0 "Hat $VALUE|H$ Interventionskräfte oder mehr aus $COUNTRY2|H$"
- TRIGGER_HAS_VOLUNTEERS_LESS_THAN:0 "Hat weniger als $VALUE|H$ Einsatzkräfte aus $COUNTRY2|H$"
- TRIGGER_HAS_NOT_MILITARY_ACCESS_TO:0 "Hat keine Militärstützpunkte in $COUNTRY|H$"
- TRIGGER_HAS_MILITARY_ACCESS_TO:0 "Hat Militärstützpunkte in $COUNTRY|H$"
- TRIGGER_GIVES_NOT_MILITARY_ACCESS_TO:0 "Beherbergt keine Militärbasen für $COUNTRY|H$"
- TRIGGER_GIVES_MILITARY_ACCESS_TO:0 "Nimmt Militärbasen für $COUNTRY|H$ auf"
