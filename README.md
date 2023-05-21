@@ -17,7 +17,7 @@ I'm excited to welcome any contributions and kindly ask you to point out any err
 (A) [@NiclqsGER](https://github.com/NiclqsGER)<br>
 (C) Haffen2003<br>
 (S) Benno2406<br>
-
+(S) Markus K.<br>
 
 ## FAQ
 
