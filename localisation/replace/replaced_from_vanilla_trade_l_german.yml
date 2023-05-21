@@ -1,0 +1,8 @@
+﻿l_german:
+ TRADE_ALL_FACTORY_OUT_TITLE:0 "Alle Branchen für den Handel"
+ TRADE_ALL_FACTORY_OUT_DESC:0 "Sind Sie sicher, dass Sie alle Ihre Industrien Handelswaren produzieren lassen wollen? Dann können Sie keine Gebäude errichten!"
+ TRADEOFFER_FACTORIES_DESC_LABEL:0 "Kaufbetrag: $VALUE|Y$Für die zivile Industrie: $CIC|Y$"
+ LACK_OF_CIVIL_FACTORIES:0 "Wegen des Mangels an zivilen Industrien."
+ TRADE_CAN_TRADE_TOOLTIP:0 "Wir haben insgesamt $TOT|H$ Zivile Industrien. $VAL|H$ werden benötigt, um unser Regierungsbudget zu finanzieren, so dass uns $TRADE|H$ für den Handel zur Verfügung steht.\n\nBeachte, dass du Industrien, die du durch Handelsexporte erhalten hast, nicht weghandeln kannst und dass das Weghandeln von Industrien verhindert, dass sie für Konstruktionen verwendet werden können."
+ TRADE_WARNING:0 "Dieses Geschäft wird Industrien nutzen, die derzeit Gebäude errichten."
+ TRADE_CIV_FACTORIES:0 "Zivile Industrien"
