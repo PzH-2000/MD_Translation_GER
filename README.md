@@ -13,8 +13,10 @@ I'm excited to welcome any contributions and kindly ask you to point out any err
 + [Join the official MD Mod Discord](https://discord.gg/millenniumdawn)
 
 
-## Author(s) & Contributor(s)
+## Author(s) & Contributor(s) & Sponsor(s)
 (A) [@NiclqsGER](https://github.com/NiclqsGER)
+(C) Haffen2003
+(S) Benno2406
 
 
 ## FAQ
