@@ -1,4 +1,4 @@
-﻿l_german:
+﻿l_english:
  ivory_coast_md.1.t: "Promise of Elections"
  ivory_coast_md.1.d: "On the 24 December 1999 former president Henri Konan Bédié was deposed in a military coup. Since then the Ivory Coast has been run by the National Public Salvation Committee, a military junta. Many Ivorians welcomed the coup, saying that they hoped the army would improve Ivory Coast's shaky economic and political circumstances, but now there is pressure for a return to civilian rule. The question is whether we should permit migrant workers, who make up most of the north's population to stand for election"
  ivory_coast_md.1.o1: "Only allow natural citizens."
@@ -128,4 +128,3 @@
  senegal_md.101.d: "The warring factions in [SEN.GetName] have finally laid up their arms today as the fighting comes to a conclusion."
  senegal_md.101.o1: "We are united!"
  senegal_md.101.o2: "Peace at last!"
-# CONTAINS PLACEHOLDER FILES NOT FOR THE "RELEASE"

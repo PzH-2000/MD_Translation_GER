@@ -1,4 +1,4 @@
-﻿l_german:
+﻿l_english:
  armoured_cavalry_officer: "Armoured Cavalry Officer"
  armoured_cavalry_officer_desc: "§LTrained as a mechanised infantry officer.§!"
  marine_officer: "Marine Officer"
@@ -390,5 +390,3 @@
  air_force_academy_spirit: "Spirit of the Air Force Academy"
  air_force_spirit: "Spirit of the Air Force"
  air_force_command_spirit: "Spirit of Air Force Command"
-
-# CONTAINS PLACEHOLDER FILES NOT FOR THE "RELEASE"

@@ -1,4 +1,4 @@
-﻿l_german:
+﻿l_english:
  # Custom tooltips
  TT_RIO_PACT: "§R[From.GetName] can call their Rio Pact allies to help them in the war§!\n"
  TT_CALL_NATO: "§R[From.GetName] can call their NATO allies to help them in the war§!\n"
@@ -367,12 +367,12 @@
  TAI_DPP_not_ruling_tt: "Current ruling party is a member of the §CPan-Blue Coalition§!"
  TAI_DPP_75_tt: "§YTotal Support§! for the §GPan-Green Coalition§! is more than §Y75%§!"
  TAI_DPP_25_tt: "§YTotal Support§! for the §GPan-Green Coalition§! is less than §Y25%§!"
- accepted_roadmap: "§Y[TAI.Getnamewithflag]§! has §Gaccepted§! the 'Roadmap to Reunification'"
- rejected_roadmap: "§Y[TAI.Getnamewithflag]§! has §Rrejected§! the 'Roadmap to Reunification'"
+ accepted_roadmap: "§Y[TAI.Getnamewithflag]§! has §Gaccepted§! the \"Roadmap to Reunification\""
+ rejected_roadmap: "§Y[TAI.Getnamewithflag]§! has §Rrejected§! the \"Roadmap to Reunification\""
  TAI_declared_independence_tt: "§Y[TAI.Getnamewithflag]§! has declared independence"
  TAI_not_declared_independence_tt: "§Y[TAI.Getnamewithflag]§! has not declared independence"
- TAI_reunification_more_likely_tt: "§Y[TAI.Getnamewithflag]§! is more likely to §Gaccept§! the 'Roadmap to Reunification'\n"
- TAI_reunification_less_likely_tt: "§Y[TAI.Getnamewithflag]§! is more likely to §Rreject§! the 'Roadmap to Reunification'\n"
+ TAI_reunification_more_likely_tt: "§Y[TAI.Getnamewithflag]§! is more likely to §Gaccept§! the \"Roadmap to Reunification\"\n"
+ TAI_reunification_less_likely_tt: "§Y[TAI.Getnamewithflag]§! is more likely to §Rreject§! the \"Roadmap to Reunification\"\n"
  TAI_influence_CHI_tt: "§Y[CHI.GetNameWithFlag]§! gains §Y20§! influence in §Y[TAI.GetNameWithFlag]§!\n"
  anti_infiltration_bill_tt: "Reduces China's ability to conduct propaganda campaigns in our territory\n"
  reunification: "§Y[CHI.GetNameWithFlag]§! has not proclaimed that §Y[HKG.GetNameWithFlag]§! will return to its control in 2047\n"
@@ -782,4 +782,3 @@
  add_to_investment_array_tooltip: "We will become a possible §YInvestment Target§! for [THIS.GetFlag]§Y[THIS.GetNameDef]§!"
  change_permanent_investment_target_tt: "[?var:adding_nation.GetFlag]§Y[?var:adding_nation.GetNameDef]§! will become a possible §YInvestment Target§! for [?var:target_nation.GetFlag]§Y[?var:target_nation.GetNameDef]§!"
  change_permanent_investment_target_remove_tt: "[?var:adding_nation.GetFlag]§Y[?var:adding_nation.GetNameDef]§! will be removed as a possible §YInvestment Target§! for [?var:target_nation.GetFlag]§Y[?var:target_nation.GetNameDef]§!"
-# CONTAINS PLACEHOLDER FILES NOT FOR THE "RELEASE"

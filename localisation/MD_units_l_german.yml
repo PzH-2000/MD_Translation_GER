@@ -1,4 +1,4 @@
-﻿l_german:
+﻿l_english:
  fighter: "Air Superiority Fighter"
  Strike_fighter: "Strike Fighter"
  L_Strike_fighter: "Light Strike Fighter"
@@ -112,4 +112,3 @@
  combat_service_support_company_desc: "Logistic and Medical services of the division."
  helicopter_combat_service_support: "Helicopter Combat Service Support"
  helicopter_combat_service_support_desc: "Logistic and Medical services of the division."
-# CONTAINS PLACEHOLDER FILES NOT FOR THE "RELEASE"

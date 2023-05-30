@@ -1,4 +1,4 @@
-﻿l_german:
+﻿l_english:
  ABK_tribute: "Economic Exploitation by [ABK.GetName]"
  ACE_tribute: "Economic Exploitation by [ACE.GetName]"
  ADO_tribute: "Economic Exploitation by [ADO.GetName]"
@@ -357,5 +357,3 @@
  D73_tribute: "Economic Exploitation by [D73.GetName]"
  D74_tribute: "Economic Exploitation by [D74.GetName]"
  D75_tribute: "Economic Exploitation by [D75.GetName]"
-
-# CONTAINS PLACEHOLDER FILES NOT FOR THE "RELEASE"

@@ -1,4 +1,4 @@
-﻿l_german:
+﻿l_english:
  md4_border_conflict_initiate_incident: "Stage Incident at [From.From.GetName] Border"
  md4_border_conflict_incident_warning_defender: "Incident at [From.From.GetName] border to [From.GetNameDef]"
  md4_border_conflict_incident_warning_defender_desc: "§WMove divisions to §H[From.From.GetName]§!§!"
@@ -94,5 +94,3 @@
  SOV_ob_warn.1.t: "[From.GetLeader] Announces Little Green Men"
  SOV_ob_warn.1.desc: "[From.GetLeader] Little Green Men"
  SOV_ob_warn.1.a: "Little Green Men"
-
-# CONTAINS PLACEHOLDER FILES NOT FOR THE "RELEASE"
