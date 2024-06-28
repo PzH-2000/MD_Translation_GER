@@ -1,5 +1,5 @@
 
-![Logo](https://imgur.com/a/lyaxv1h)
+![Logo](https://i.imgur.com/sVf15M6.png)
 
 
 # Millennium Dawn: German Translation 
