@@ -1,5 +1,5 @@
 
-![Logo]([https://cdn.discordapp.com/attachments/987477559111475217/1107535682752221214/bannerfurgerman.png?ex=667eeebb&is=667d9d3b&hm=2c9017f12f56989201f1339060292963fad1c6ba2ce01593c7206d26f767ee57&))
+![Logo]([https://imgur.com/a/lyaxv1h]))
 
 
 # Millennium Dawn: German Translation 
