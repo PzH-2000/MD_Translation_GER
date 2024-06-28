@@ -1,8 +1,8 @@
-﻿l_english:
- TRADE_ALL_FACTORY_OUT_TITLE:0 "All Industries for Trade"
- TRADE_ALL_FACTORY_OUT_DESC:0 "Are you sure that you want to have all your industries producing trade goods?\n\nYou will not be able to construct any buildings!"
- TRADEOFFER_FACTORIES_DESC_LABEL:0 "Buy amount: $VALUE|Y$\nFor Civilian Industries: $CIC|Y$"
- LACK_OF_CIVIL_FACTORIES:0 "Because of lack of Civilian Industries."
- TRADE_CAN_TRADE_TOOLTIP:0 "We have a total of $TOT|H$ Civilian Industries. $VAL|H$ are needed to fund our Government Budget, leaving us with $TRADE|H$ available for trade.\n\nNote that you cannot trade away industries received from trade exports and that trading away industries will prevent them being used for constructions."
- TRADE_WARNING:0 "This deal will use industries currently constructing buildings."
- TRADE_CIV_FACTORIES:0 "Civilian Industries"
+﻿l_german:
+ TRADE_ALL_FACTORY_OUT_TITLE:0 "Keine Zivile Industiren mehr!"
+ TRADE_ALL_FACTORY_OUT_DESC:0 "Sind Sie sicher, dass Sie alle Ihre Industrien Handelsgüter produzieren lassen wollen? Dann können Sie keine Gebäude bauen!"
+ TRADEOFFER_FACTORIES_DESC_LABEL:0 "Kaufbetrag: $VALUE|Y$\nFür Zivile Industrie: $CIC|Y$"
+ LACK_OF_CIVIL_FACTORIES:0 "Wegen des Mangels an zivilen Industrien."
+ TRADE_CAN_TRADE_TOOLTIP:0 "Wir haben insgesamt $TOT|H$ zivile Industrien. $VAL|H$ werden benötigt, um unseren Staatshaushalt zu finanzieren, so dass uns $TRADE|H$ für den Handel zur Verfügung stehen.\n\nBitte beachten Sie, dass Sie Industrien, die Sie durch Handelsexporte erhalten haben, nicht wieder eintauschen können."
+ TRADE_WARNING:0 "Dieses Geschäft wird Industrien nutzen, die derzeit Gebäude errichten."
+ TRADE_CIV_FACTORIES:0 "Zivile Industrie"
