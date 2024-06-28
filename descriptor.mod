@@ -7,5 +7,5 @@ tags={
 }
 name="Millennium Dawn: German Translation"
 picture="thumbnail.png"
-supported_version="1.*.*"
+supported_version="1.14.*"
 remote_file_id="2980919190"
