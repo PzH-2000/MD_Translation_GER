@@ -1,272 +1,312 @@
-﻿l_english:
- ##Taken from Yard1's mod
- RECALL_VOLUNTEERS_TITLE: "Recall Intervention Force"
- RECALL_VOLUNTEERS_ACTION_DESC: "At a moment's notice we can choose to recall our intervention force."
- RECALL_VOLUNTEERS_TOOLTIP: "§Y[This.GetNameWithFlag]§! §Rmust have active intervention forces from us that we can withdraw.§!"
- RECALL_VOLUNTEERS_TOOLTIP_G: "§Y[This.GetNameWithFlag]§! must have active intervention forces from us that we can withdraw."
- RECALL_VOLUNTEERS_SEND_DESC: "The fight §Y[This.GetNameWithFlag]§! finds herself in is no longer our fight. It is time we withdraw our forces from the conflict.\n\n§YThis action will withdraw our Intervention Forces from §Y[This.GetNameWithFlag]§!"
+﻿l_german:
+  ## Taken from Yard1's mod
+  RECALL_VOLUNTEERS_TITLE: "Interventionskräfte zurückrufen"
+  RECALL_VOLUNTEERS_ACTION_DESC: "Wir können jederzeit entscheiden, unsere Interventionskräfte zurückzurufen."
+  RECALL_VOLUNTEERS_TOOLTIP: "§Y[This.GetNameWithFlag]§! §Rmuss aktive Interventionskräfte von uns haben, die wir zurückziehen können.§!"
+  RECALL_VOLUNTEERS_TOOLTIP_G: "§Y[This.GetNameWithFlag]§! muss aktive Interventionskräfte von uns haben, die wir zurückziehen können."
+  RECALL_VOLUNTEERS_SEND_DESC: "Der Kampf, in den sich §Y[This.GetNameWithFlag]§! befindet, ist nicht mehr unser Kampf. Es ist an der Zeit, dass wir unsere Kräfte aus dem Konflikt zurückziehen.\n\n§YDiese Aktion wird unsere Interventionskräfte aus §Y[This.GetNameWithFlag]§! abziehen!"
 
- # Reluctance to Accept
- base_trade_condition: "Base Reluctance Against §YTrade Agreement§!"
- base_mutual_investment_treaty_condition: "Base Reluctance Against §YMutual Investment Treaty§!"
- base_assume_debt_condition: "Base Reluctance Against §YDebt Assumption§!"
- condition_two: "Government Type Reluctance"
- condition_three: "Reluctance from Opinion"
- condition_four: "Reluctance from both being NATO Members"
- condition_five: "Reluctance from both being EU Members"
- condition_six: "Reluctance from being in a faction together"
- trade_condition_has_same_government: "Nations Have the Same Government"
- trade_has_positive_relations: "Has Positive Relations"
- condition_seven: "Is Subject of [Root.GetNameWithFlag]"
- condition_eight: "[Root.GetNameWithFlag] Influences [THIS.GetNameWithFlag]"
- condition_nine: "[THIS.GetNameWithFlag]'s Current Interest Rate"
- condition_ten: "[THIS.GetNameWithFlag] From Power Ranking"
+  # Reluctance to Accept
+  base_trade_condition: "Grundlegende Abneigung gegen §YHandelsabkommen§!"
+  base_mutual_investment_treaty_condition: "Grundlegende Abneigung gegen §Ygegenseitige Investitionen (Handelsabkommen)§!"
+  base_assume_debt_condition: "Grundlegende Abneigung gegen die §YSchuldenübernahme§!"
+  condition_two: "Regierungstypische Abneigung"
+  condition_three: "Abneigung basierend auf der Meinung"
+  condition_four: "Abneigung, weil beide NATO-Mitglieder sind"
+  condition_five: "Abneigung, weil beide EU-Mitglieder sind"
+  condition_six: "Abneigung, weil sie zusammen in einer Fraktion sind"
+  trade_condition_has_same_government: "Nationen haben die gleiche Regierung"
+  trade_has_positive_relations: "Hat positive Beziehungen"
+  condition_seven: "Ist Gegenstand von [Root.GetNameWithFlag]"
+  condition_eight: "[Root.GetNameWithFlag] beeinflusst [THIS.GetNameWithFlag]"
+  condition_nine: "Der aktuelle Zinssatz von [THIS.GetNameWithFlag]"
+  condition_ten: "[THIS.GetNameWithFlag] From Power Ranking"
+
+  PROPOSE_IMPROVED_TRADE_AGREEMENT_TITLE: "Vorschlag für ein verbessertes §YHandelsabkommen§!"
+  PROPOSE_IMPROVED_TRADE_AGREEMENT_ACTION_DESC: "Ein Vorschlag für ein §YHandelsabkommen§! mit dieser Nation sollte eine gegenseitig vorteilhafte Vereinbarung sein. Es bringt größeren Wohlstand für beide Nationen. Wenn die Nation investieren möchte, erhöht ein §YHandelsabkommen§! auch die Chance, Investitionen zu erhalten.\n\nDie folgenden Faktoren bestimmen, wie die KI auf die Vereinbarung reagiert:\nGleiche Regierung, Meinung, Einfluss, Fraktion, EU-Mitgliedschaft, NATO-Mitgliedschaft."
+  PROPOSE_TRADE_AGREEMENT_TOOLTIP: "Ist derzeit nicht in einem §YHandelsabkommen§! mit §Y[This.GetNameWithFlag]§!\n"
+  PROPOSAL_MISSING_TOOLTIP: "Überlegt derzeit nicht, ein Angebot von §Y[This.GetNameWithFlag]§! anzunehmen!\n"
+  PROPOSE_TRADE_AGREEMENT_DESC: "Ein §YHandelsabkommen§! zwischen unseren beiden Nationen wird den Handelseinfluss um §G100§! erhöhen und die Meinung mit §Y[This.GetNameWithFlag]§! um §G25§! steigern, falls es akzeptiert wird. Die beiden Nationen erhalten außerdem etwa §G~1%§! Einfluss aufeinander."
+  PROPOSE_TRADE_AGREEMENT_ACCEPT_TT: "[THIS.GetNameWithFlag] §Ghat das §YHandelsabkommen§! akzeptiert!!"
+  PROPOSE_TRADE_AGREEMENT_ACCEPT_DESC: "[THIS.GetNameWithFlag] hat die Vereinbarung akzeptiert, was folgende Auswirkungen hat:\n\nErhöhung des Handelseinflusses um §G50§!\nErhöhung der Meinung um §G25§!\nErhöhter Einfluss von etwa §G~1%§!\n"
+  PROPOSE_TRADE_AGREEMENT_REJECT_TT: "[THIS.GetNameWithFlag] §Rhat das §YHandelsabkommen§! abgelehnt!!"
+  PROPOSE_TRADE_AGREEMENT_REJECT_DESC: "Leider hat [THIS.GetNameWithFlag] unser Handelsabkommen abgelehnt. Vielleicht können wir an einem anderen Tag eine Vereinbarung unterzeichnen."
+
+  CANCEL_TRADE_AGREEMENT_TITLE: "Ende des §YHandelsabkommens§!"
+  CANCEL_TRADE_AGREEMENT_ACTION_DESC: "Das Ende des §YHandelsabkommens§! mit dieser Nation wird zu Spannungen zwischen unseren Nationen führen."
+  CANCEL_TRADE_AGREEMENT_TOOLTIP: "Ist derzeit in einem §YHandelsabkommen§! mit §Y[This.GetNameWithFlag]§!\n"
+  CANCEL_TRADE_AGREEMENT_DESC: "Das Ende des §YHandelsabkommens§! hat folgende Auswirkungen:\n\nVerringerung des Handelseinflusses um §R50§!\nVerringerung der Meinung um §R25§! mit einem tickenden Meinungsmodifikator von §R15§! aufgrund der Vertragsbruch\n"
+  CANCEL_TRADE_AGREEMENT_RECIEVING_TT: "Übermittlung von [Root.GetNameWithFlag]"
+  CANCEL_TRADE_AGREEMENT_RECIEVING_DESC: "Die Nachricht von §Y[Root.GetNameWithFlag]§! ändert ihren diplomatischen Status zu uns: Handelsabkommen kündigen"
+
+  # Schuldenübernahme
+  DIPLO_ACTION_ASSUME_DEBT_TITLE: "Vorschlag für die Übernahme von §YSchulden§!"
+  DIPLO_ACTION_ASSUME_DEBT_ACTION_DESC: "Wir können einer anderen Nation vorschlagen, ihre aktuellen wirtschaftlichen Probleme zu lindern, indem wir eine §YSchuldenübernahme§! anbieten. Wenn sie dieses Angebot akzeptieren, erhalten wir eine kleine Meinung und übernehmen 25% ihrer §YSchulden§!. Es wird zunächst aus unserer Schatzkammer genommen.\n\nDie folgenden Faktoren bestimmen, wie die KI auf die Vereinbarung reagiert:\nGleiche Regierung, Meinung, Einfluss, Fraktion, EU-Mitgliedschaft, NATO-Mitgliedschaft."
+  DIPLO_ACTION_ASSUME_DEBT_DESC: "Wir können die §YSchulden§! einer anderen Nation übernehmen, um ihre aktuellen wirtschaftlichen Probleme zu lindern. Wenn sie dieses Angebot akzeptieren, erhalten wir eine kleine Meinung und übernehmen 25% ihrer §YSchulden§!. Es wird zunächst aus unserer Schatzkammer genommen."
+  DIPLO_ACTION_ASSUME_DEBT_ACCEPT: "[THIS.GetNameWithFlag] §Ghat zugestimmt!§!"
+  DIPLO_ACTION_ASSUME_DEBT_ACCEPT_DESC: "[THIS.GetNameWithFlag] hat die §YSchuldenübernahme§! akzeptiert. Wir haben 25% ihrer aktuellen §YSchulden§! übernommen, was einige der Belastungen für [THIs.GetNameWithFlag] lindert."
+  DIPLO_ACTION_ASSUME_DEBT_REJECT: "[THIS.GetNameWithFlag] §Rhat abgelehnt!§!"
+  DIPLO_ACTION_ASSUME_DEBT_REJECT_DESC: "Leider hat [THIS.GetNameWithFlag] unsere Schuldenübernahme abgelehnt. Vielleicht können wir an einem anderen Tag eine Vereinbarung unterzeichnen."
+  treasury_more_than_25_debt_tt: "Aktuelle geschätzte §YSchulden§! zur Übernahme: $[?tmp|-]b\n"
+
+  # Vorschlag für gegenseitigen Investitionsvertrag
+  PROPOSE_MUTUAL_INVESTMENT_TREATY_TOOLTIP: "Ist derzeit nicht in einem §Ygegenseitige Investitionen§! mit §Y[This.GetNameWithFlag]§!\n"
+  PROPOSE_MUTUAL_INVESTMENT_TREATY_TITLE: "Vorschlag für einen §Y gegenseitige Investitionen§!"
+  PROPOSE_MUTUAL_INVESTMENT_TREATY_ACTION_DESC: "Wir können mit dieser Nation §Ygegenseitiges Investitione§y! vorschlagen, um Investitionen in beiden Nationen zu fördern. Der Vertrag wird uns beiden eine Reduzierung der §YInvestment Cost & Duration§! um §G5§!% geben und §G~1§!% Einfluss auf jede Nation.\n\nDie folgenden Faktoren bestimmen, wie die KI auf die Vereinbarung reagiert:\nGleiche Regierung, Meinung, Einfluss, Fraktion, EU-Mitgliedschaft, NATO-Mitgliedschaft.\n\nDarüber hinaus wird die Zielnation, wenn sie eine KI ist, in den §YPermanent Investment Target§!-Pool aufgenommen, was bedeutet, dass sie versuchen wird, in Sie zu investieren."
+  DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY: "Ein Vorschlag für §Ygegenseitige Investitionen§! wird den Handelseinfluss um §G30§! erhöhen und die Meinung mit §Y[This.GetNameWithFlag]§! um §G30§! steigern, falls er von der anderen Nation akzeptiert wird. Die beiden Nationen erhalten außerdem etwa §G~1%§! §YEinfluss§! aufeinander. Darüber hinaus werden die §YInvestment Cost & Duration§! um §G5§!% zwischen den beiden Nationen reduziert."
+  DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY_ACCEPT: "[THIS.GetNameWithFlag] §Ghat das §Ygegenseitige Investitionen Abkommen§! unterzeichnet!!"
+  DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY_ACCEPT_DESC: "[THIS.GetNameWithFlag] hat das §Ygegenseitige Investitionen Abkommen§! unterzeichnet!. Unsere beiden Nationen kommen aufgrund dieses Abkommens schnell zusammen, und die Investoren in unserer Nation sind bereits an den neuen Geschäftsmöglichkeiten interessiert."
+  DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY_REJECT: "[THIS.GetNameWithFlag] §Rhat die §Ygegenseitige Investitionen§! abgelehnt!!"
+  DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY_REJECT_DESC: "[THIS.GetNameWithFlag] hat die §Ygegenseitige Investitionen! abgelehnt!. Die Investoren in unserer Nation sind enttäuscht, dass unsere beiden Nationen keine Einigung erzielen konnten. Vielleicht zu einem späteren Zeitpunkt..."
+
+  CANCEL_MUTUAL_INVESTMENT_TREATY_TITLE: "Ende der §Ygegenseitige Investitionen Abkommen§!"
+  CANCEL_MUTUAL_INVESTMENT_TOOLTIP: "Ist derzeit in einem §YAbkommen (bzgl.: Gegenseitige Investitionen)§! mit §Y[This.GetNameWithFlag]§!\n"
+  CANCEL_MUTUAL_INVESTMENT_TREATY_ACTION_DESC: "Wir sind nicht mehr daran interessiert, unsere §Ygegenseitige Investitionen§! zwischen unseren beiden Nationen aufrechtzuerhalten. Es ist Zeit, das §YAbkommen§! zu beenden und neue Abkommen für die Zukunft zu schmieden. Das Ende des §YHandelsabkommens§! hat folgende Auswirkungen:\n\nVerringerung des Handelseinflusses um §R50§!\nVerringerung der Meinung um §R25§! mit einem tickenden Meinungsmodifikator von §R15§! aufgrund der Vertragsbruch\n"
+  DIPLO_ACTION_CANCEL_MUTUAL_INVESTMENT_TREATY: "Leider hat [THIS.GetNameWithFlag] unseres §YHandelsabkommen (Gegenseitige Investitionen)§! zurückgezogen. Vielleicht können wir zu einem späteren Zeitpunkt einen weiteres §YHandelsabkommen§! unterzeichnen, aber im Moment haben wir keine Vereinbarung mehr."
+
+  base_desire: "Grundverlangen"
+  opinion_condition: "Meinung"
+  friends_condition: "Freunde"
+  foes_condition: "Feinde"
+  war_condition: "Krieg"
+  wargoal_condition: "Kriegsziele"
+
+  ############
+  ### GNSS ###
+  ############
+
+  ### GNSS MIL ###
+  ### Anfrage ###
+  REQUEST_MIL_GNSS_ACCESS_TITLE: "Anfrage: Militärischen GNSS-Zugang anfordern"
+  REQUEST_MIL_GNSS_ACCESS_ACTION_DESC: "Fordern Sie Zugang zu ihrem militärischen GNSS-Netzwerk an."
+  REQUEST_MIL_GNSS_ACCESS_LOC: "Sende Militärische GNSS-Zugangsanfrage"
+  REQUEST_MIL_GNSS_ACCESS_RECIEVER_LOC: "Sie beantragen Zugang zum militärischen GNSS-Netz."
+  REQUEST_MIL_GNSS_ACCESS_ACCEPTED_TITLE: "Zugang gewährt!"
+  REQUEST_MIL_GNSS_ACCESS_ACCEPTED_DESC: "Wir werden von ihrem militärischen GNSS-Netzwerk profitieren."
+  REQUEST_MIL_GNSS_ACCESS_REJECTED_TITLE: "Zugang verweigert!"
+  REQUEST_MIL_GNSS_ACCESS_REJECTED_DESC: "Sie haben uns den Zugang zu ihrem militärischen GNSS-Netzwerk verweigert."
+  REQUEST_MIL_GNSS_ACCESS_SELECTABLE_TT: "§YMilitärischer GNSS-Systemlevel§! von [PREV.GetNameWithFlag] muss größer als null und mindestens größer oder gleich dem Level von [ROOT.GetNameWithFlag] sein."
+
+  ### Angebot ###
+  OFFER_MIL_GNSS_ACCESS_TITLE: "Angebot: Militärischen GNSS-Zugangs"
+  OFFER_MIL_GNSS_ACCESS_ACTION_DESC: "Bieten Sie Zugang zu unserem militärischen GNSS-Netzwerk an."
+  OFFER_MIL_GNSS_ACCESS_LOC: "Biete dem Land den Zugang zu deinem Militärischen GNSS-Zugang an."
+  OFFER_MIL_GNSS_ACCESS_RECIEVER_LOC: "Sie bieten Zugang zu ihrem militärischen GNSS-Netzwerk an."
+  OFFER_MIL_GNSS_ACCESS_ACCEPTED_TITLE: "Angebot akzeptiert!"
+  OFFER_MIL_GNSS_ACCESS_ACCEPTED_DESC: "Sie werden von unserem militärischen GNSS-Netzwerk profitieren."
+  OFFER_MIL_GNSS_ACCESS_REJECTED_TITLE: "Angebot abgelehnt!"
+  OFFER_MIL_GNSS_ACCESS_REJECTED_DESC: "Sie haben unser Angebot für Zugang zu unserem militärischen GNSS-Netzwerk abgelehnt."
+  OFFER_MIL_GNSS_ACCESS_SELECTABLE_TT: "§YMilitärischer GNSS-Systemlevel§! von [ROOT.GetNameWithFlag] muss größer als null und mindestens größer oder gleich dem Level von [PREV.GetNameWithFlag] sein."
+
+  ### Widerrufen ###
+  REVOKE_MIL_GNSS_ACCESS_TITLE: "Militärischen GNSS-Zugang widerrufen"
+  REVOKE_MIL_GNSS_ACCESS_ACTION_DESC: "Widerrufen Sie den Zugang zu unserem militärischen GNSS-Netzwerk."
+  REVOKE_MIL_GNSS_ACCESS_LOC: "Sende Widerruf des militärischen GNSS-Zugangs"
+  REVOKE_MIL_GNSS_ACCESS_RECIEVER_LOC: "Sie widerrufen ihren Zugang zu ihrem militärischen GNSS-Netzwerk."
+  REVOKE_MIL_GNSS_ACCESS_ACCEPTED_TITLE: "Militärischen GNSS-Zugang widerrufen"
+  REVOKE_MIL_GNSS_ACCESS_ACCEPTED_DESC: "Sie widerrufen ihren Zugang zu ihrem militärischen GNSS-Netzwerk."
+
+  ### GNSS CIV ###
+  ### Anfrage ###
+  REQUEST_CIV_GNSS_ACCESS_TITLE: "Zivilen GNSS-Zugang anfordern"
+  REQUEST_CIV_GNSS_ACCESS_ACTION_DESC: "Fordern Sie Zugang zu ihrem zivilen GNSS-Netzwerk an."
+  REQUEST_CIV_GNSS_ACCESS_LOC: "Sende Zivile GNSS-Zugangsanfrage"
+  REQUEST_CIV_GNSS_ACCESS_RECIEVER_LOC: "Sie bitten um Zugang zu unserem zivilen GNSS-Netzwerk."
+  REQUEST_CIV_GNSS_ACCESS_ACCEPTED_TITLE: "Zugang gewährt!"
+  REQUEST_CIV_GNSS_ACCESS_ACCEPTED_DESC: "Wir werden von ihrem zivilen GNSS-Netzwerk profitieren."
+  REQUEST_CIV_GNSS_ACCESS_REJECTED_TITLE: "Zugang verweigert!"
+  REQUEST_CIV_GNSS_ACCESS_REJECTED_DESC: "Sie haben uns den Zugang zu ihrem zivilen GNSS-Netzwerk verweigert."
+  REQUEST_CIV_GNSS_ACCESS_SELECTABLE_TT: "§YZivilen GNSS-Systemlevel§! von [PREV.GetNameWithFlag] muss größer als null und mindestens größer oder gleich dem Level von [ROOT.GetNameWithFlag] sein."
+
+  ### Angebot ###
+  OFFER_CIV_GNSS_ACCESS_TITLE: "Angebot zivilen GNSS-Zugangs"
+  OFFER_CIV_GNSS_ACCESS_ACTION_DESC: "Bieten Sie Zugang zu unserem zivilen GNSS-Netzwerk an."
+  OFFER_CIV_GNSS_ACCESS_LOC: "Sende Angebot zivilen GNSS-Zugang"
+  OFFER_CIV_GNSS_ACCESS_RECIEVER_LOC: "Sie bieten Zugang zu ihrem zivilen GNSS-Netzwerk an."
+  OFFER_CIV_GNSS_ACCESS_ACCEPTED_TITLE: "Angebot akzeptiert!"
+  OFFER_CIV_GNSS_ACCESS_ACCEPTED_DESC: "Sie werden von unserem zivilen GNSS-Netzwerk profitieren."
+  OFFER_CIV_GNSS_ACCESS_REJECTED_TITLE: "Angebot abgelehnt!"
+  OFFER_CIV_GNSS_ACCESS_REJECTED_DESC: "Sie haben unser Angebot für Zugang zu unserem zivilen GNSS-Netzwerk abgelehnt."
+  OFFER_CIV_GNSS_ACCESS_SELECTABLE_TT: "§YZivilen GNSS-Systemlevel§! von [ROOT.GetNameWithFlag] muss größer als null und mindestens größer oder gleich dem Level von [PREV.GetNameWithFlag] sein."
+
+  ### Widerrufen ###
+  REVOKE_CIV_GNSS_ACCESS_TITLE: "Zivilen GNSS-Zugang widerrufen"
+  REVOKE_CIV_GNSS_ACCESS_ACTION_DESC: "Widerrufen Sie den Zugang zu unserem zivilen GNSS-Netzwerk."
+  REVOKE_CIV_GNSS_ACCESS_LOC: "Sende Widerruf des zivilen GNSS-Zugangs"
+  REVOKE_CIV_GNSS_ACCESS_RECIEVER_LOC: "Sie widerrufen ihren Zugang zu ihrem zivilen GNSS-Netzwerk."
+  REVOKE_CIV_GNSS_ACCESS_ACCEPTED_TITLE: "Zivilen GNSS-Zugang widerrufen"
+  REVOKE_CIV_GNSS_ACCESS_ACCEPTED_DESC: "Sie widerrufen ihren Zugang zu ihrem zivilen GNSS-Netzwerk."
+
+  ###########
+  ### COM ###
+  ###########
+
+l_german:
+  base_desire: "Grundverlangen"
+  opinion_condition: "Meinung"
+  friends_condition: "Freunde"
+  foes_condition: "Feinde"
+  war_condition: "Krieg"
+  wargoal_condition: "Kriegsziele"
+
+  ############
+  ### COM ###
+  ############
+
+  ### COM MIL ###
+  ### Anfrage ###
+  REQUEST_MIL_COM_ACCESS_TITLE: "Militärischen COMSAT-Zugang anfordern"
+  REQUEST_MIL_COM_ACCESS_ACTION_DESC: "Fordern Sie Zugang zu ihrem militärischen Satellitenkommunikationssystem an."
+  REQUEST_MIL_COM_ACCESS_LOC: "Sende Militärische COMSAT-Zugangsanfrage"
+  REQUEST_MIL_COM_ACCESS_RECIEVER_LOC: "Sie bitten um Zugang zu unserem militärischen Satellitenkommunikationssystem."
+  REQUEST_MIL_COM_ACCESS_ACCEPTED_TITLE: "Zugang gewährt!"
+  REQUEST_MIL_COM_ACCESS_ACCEPTED_DESC: "Wir werden von ihrem militärischen Satellitenkommunikationssystem profitieren."
+  REQUEST_MIL_COM_ACCESS_REJECTED_TITLE: "Zugang verweigert!"
+  REQUEST_MIL_COM_ACCESS_REJECTED_DESC: "Sie haben uns den Zugang zu ihrem militärischen Satellitenkommunikationssystem verweigert."
+  REQUEST_MIL_COM_ACCESS_SELECTABLE_TT: "§YMilitärischer COMSAT-Systemlevel§! von [PREV.GetNameWithFlag] muss größer als null und mindestens gleich dem Level von [ROOT.GetNameWithFlag] sein."
+
+  ### Angebot ###
+  OFFER_MIL_COM_ACCESS_TITLE: "Angebot militärischen COMSAT-Zugangs"
+  OFFER_MIL_COM_ACCESS_ACTION_DESC: "Bieten Sie Zugang zu unserem militärischen Satellitenkommunikationssystem an."
+  OFFER_MIL_COM_ACCESS_LOC: "Sende Angebot militärischen COMSAT-Zugang"
+  OFFER_MIL_COM_ACCESS_RECIEVER_LOC: "Sie bieten Zugang zu ihrem militärischen Satellitenkommunikationssystem an."
+  OFFER_MIL_COM_ACCESS_ACCEPTED_TITLE: "Angebot akzeptiert!"
+  OFFER_MIL_COM_ACCESS_ACCEPTED_DESC: "Sie werden von unserem militärischen Satellitenkommunikationssystem profitieren."
+  OFFER_MIL_COM_ACCESS_REJECTED_TITLE: "Angebot abgelehnt!"
+  OFFER_MIL_COM_ACCESS_REJECTED_DESC: "Sie haben unser Angebot für Zugang zu unserem militärischen Satellitenkommunikationssystem abgelehnt."
+  OFFER_MIL_COM_ACCESS_SELECTABLE_TT: "§YMilitärischer COMSAT-Systemlevel§! von [ROOT.GetNameWithFlag] muss größer als null und mindestens gleich dem Level von [PREV.GetNameWithFlag] sein."
+
+  ### Widerrufen ###
+  REVOKE_MIL_COM_ACCESS_TITLE: "Militärischen COMSAT-Zugang widerrufen"
+  REVOKE_MIL_COM_ACCESS_ACTION_DESC: "Widerrufen Sie den Zugang zu unserem militärischen Satellitenkommunikationssystem."
+  REVOKE_MIL_COM_ACCESS_LOC: "Sende Widerruf des militärischen COMSAT-Zugangs"
+  REVOKE_MIL_COM_ACCESS_RECIEVER_LOC: "Sie widerrufen unseren Zugang zu ihrem militärischen Satellitenkommunikationssystem."
+  REVOKE_MIL_COM_ACCESS_ACCEPTED_TITLE: "Militärischen COMSAT-Zugang widerrufen"
+  REVOKE_MIL_COM_ACCESS_ACCEPTED_DESC: "Sie widerrufen unseren Zugang zu ihrem militärischen Satellitenkommunikationssystem."
+
+  ### COM CIV ###
+  ### Anfrage ###
+  REQUEST_CIV_COM_ACCESS_TITLE: "Zivilen COMSAT-Zugang anfordern"
+  REQUEST_CIV_COM_ACCESS_ACTION_DESC: "Fordern Sie Zugang zu ihrem zivilen Satellitenkommunikationssystem an."
+  REQUEST_CIV_COM_ACCESS_LOC: "Sende Zivile COMSAT-Zugangsanfrage"
+  REQUEST_CIV_COM_ACCESS_RECIEVER_LOC: "Sie bitten um Zugang zu unserem zivilen Satellitenkommunikationssystem."
+  REQUEST_CIV_COM_ACCESS_ACCEPTED_TITLE: "Zugang gewährt!"
+  REQUEST_CIV_COM_ACCESS_ACCEPTED_DESC: "Wir werden von ihrem zivilen Satellitenkommunikationssystem profitieren."
+  REQUEST_CIV_COM_ACCESS_REJECTED_TITLE: "Zugang verweigert!"
+  REQUEST_CIV_COM_ACCESS_REJECTED_DESC: "Sie haben uns den Zugang zu ihrem zivilen Satellitenkommunikationssystem verweigert."
+  REQUEST_CIV_COM_ACCESS_SELECTABLE_TT: "§YZiviler COMSAT-Systemlevel§! von [PREV.GetNameWithFlag] muss größer als null und mindestens gleich dem Level von [ROOT.GetNameWithFlag] sein."
+
+  ### Angebot ###
+  OFFER_CIV_COM_ACCESS_TITLE: "Angebot zivilen COMSAT-Zugangs"
+  OFFER_CIV_COM_ACCESS_ACTION_DESC: "Bieten Sie Zugang zu unserem zivilen Satellitenkommunikationssystem an."
+  OFFER_CIV_COM_ACCESS_LOC: "Sende Angebot zivilen COMSAT-Zugang"
+  OFFER_CIV_COM_ACCESS_RECIEVER_LOC: "Sie bieten Zugang zu ihrem zivilen Satellitenkommunikationssystem an."
+  OFFER_CIV_COM_ACCESS_ACCEPTED_TITLE: "Angebot akzeptiert!"
+  OFFER_CIV_COM_ACCESS_ACCEPTED_DESC: "Sie werden von unserem zivilen Satellitenkommunikationssystem profitieren."
+  OFFER_CIV_COM_ACCESS_REJECTED_TITLE: "Angebot abgelehnt!"
+  OFFER_CIV_COM_ACCESS_REJECTED_DESC: "Sie haben unser Angebot für Zugang zu unserem zivilen Satellitenkommunikationssystem abgelehnt."
+  OFFER_CIV_COM_ACCESS_SELECTABLE_TT: "§YZiviler COMSAT-Systemlevel§! von [ROOT.GetNameWithFlag] muss größer als null und mindestens gleich dem Level von [PREV.GetNameWithFlag] sein."
+
+  ### Widerrufen ###
+  REVOKE_CIV_COM_ACCESS_TITLE: "Zivilen COMSAT-Zugang widerrufen"
+  REVOKE_CIV_COM_ACCESS_ACTION_DESC: "Widerrufen Sie den Zugang zu unserem zivilen Satellitenkommunikationssystem."
+  REVOKE_CIV_COM_ACCESS_LOC: "Sende Widerruf des zivilen COMSAT-Zugangs"
+  REVOKE_CIV_COM_ACCESS_RECIEVER_LOC: "Sie widerrufen den Zugang zu ihrem zivilen Satellitenkommunikationssystem."
+  REVOKE_CIV_COM_ACCESS_ACCEPTED_TITLE: "Zivilen COMSAT-Zugang widerrufen"
+  REVOKE_CIV_COM_ACCESS_ACCEPTED_DESC: "Sie widerrufen den Zugang zu ihrem zivilen Satellitenkommunikationssystem."
+
+  ###########
+  ### SPY ###
+  ###########
+
+  ### SPY MIL ###
+  ### Anfrage ###
+  REQUEST_MIL_SPY_ACCESS_TITLE: "Militärischen SPYSAT-Zugang anfordern"
+  REQUEST_MIL_SPY_ACCESS_ACTION_DESC: "Fordern Sie Zugang zu ihrem militärischen Aufklärungssatellitensystem an."
+  REQUEST_MIL_SPY_ACCESS_LOC: "Sende Militärische SPYSAT-Zugangsanfrage"
+  REQUEST_MIL_SPY_ACCESS_RECIEVER_LOC: "Sie bitten um Zugang zu unserem militärischen Aufklärungssatellitensystem."
+  REQUEST_MIL_SPY_ACCESS_ACCEPTED_TITLE: "Zugang gewährt!"
+  REQUEST_MIL_SPY_ACCESS_ACCEPTED_DESC: "Wir werden von ihrem militärischen Aufklärungssatellitensystem profitieren."
+  REQUEST_MIL_SPY_ACCESS_REJECTED_TITLE: "Zugang verweigert!"
+  REQUEST_MIL_SPY_ACCESS_REJECTED_DESC: "Sie haben uns den Zugang zu ihrem militärischen Aufklärungssatellitensystem verweigert."
+  REQUEST_MIL_SPY_ACCESS_SELECTABLE_TT: "§YMilitärischer SPYSAT-Systemlevel§! von [PREV.GetNameWithFlag] muss größer als null und mindestens gleich dem Level von [ROOT.GetNameWithFlag] sein."
+
+  ### Angebot ###
+  OFFER_MIL_SPY_ACCESS_TITLE: "Angebot militärischen SPYSAT-Zugangs"
+  OFFER_MIL_SPY_ACCESS_ACTION_DESC: "Bieten Sie Zugang zu unserem militärischen Aufklärungssatellitensystem an."
+  OFFER_MIL_SPY_ACCESS_LOC: "Sende Angebot militärischen SPYSAT-Zugang"
+  OFFER_MIL_SPY_ACCESS_RECIEVER_LOC: "Sie bieten Zugang zu ihrem militärischen Aufklärungssatellitensystem an."
+  OFFER_MIL_SPY_ACCESS_ACCEPTED_TITLE: "Angebot akzeptiert!"
+  OFFER_MIL_SPY_ACCESS_ACCEPTED_DESC: "Sie werden von unserem militärischen Aufklärungssatellitensystem profitieren."
+  OFFER_MIL_SPY_ACCESS_REJECTED_TITLE: "Angebot abgelehnt!"
+  OFFER_MIL_SPY_ACCESS_REJECTED_DESC: "Sie haben unser Angebot für Zugang zu unserem militärischen Aufklärungssatellitensystem abgelehnt."
+  OFFER_MIL_SPY_ACCESS_SELECTABLE_TT: "§YMilitärischer SPYSAT-Systemlevel§! von [ROOT.GetNameWithFlag] muss größer als null und mindestens gleich dem Level von [PREV.GetNameWithFlag] sein."
+
+  ### Widerrufen ###
+  REVOKE_MIL_SPY_ACCESS_TITLE: "Militärischen SPYSAT-Zugang widerrufen"
+  REVOKE_MIL_SPY_ACCESS_ACTION_DESC: "Widerrufen Sie den Zugang zu unserem militärischen Aufklärungssatellitensystem."
+  REVOKE_MIL_SPY_ACCESS_LOC: "Sende Widerruf des militärischen SPYSAT-Zugangs"
+  REVOKE_MIL_SPY_ACCESS_RECIEVER_LOC: "Sie widerrufen den Zugang zu ihrem militärischen Aufklärungssatellitensystem."
+  REVOKE_MIL_SPY_ACCESS_ACCEPTED_TITLE: "Militärischen SPYSAT-Zugang widerrufen"
+  REVOKE_MIL_SPY_ACCESS_ACCEPTED_DESC: "Sie widerrufen den Zugang zu ihrem militärischen Aufklärungssatellitensystem."
+
+  base_desire: "Grundverlangen"
+  opinion_condition: "Meinung"
+  friends_condition: "Freunde"
+  foes_condition: "Feinde"
+  war_condition: "Krieg"
+  wargoal_condition: "Kriegsziele"
+
+  ############
+  ### SPY ###
+  ############
+
+  ### SPY CIV ###
+  ### Anfrage ###
+  REQUEST_CIV_SPY_ACCESS_TITLE: "Zivilen SPYSAT-Zugang anfordern"
+  REQUEST_CIV_SPY_ACCESS_ACTION_DESC: "Fordern Sie Zugang zu ihrem zivilen Aufklärungssatellitensystem an."
+  REQUEST_CIV_SPY_ACCESS_LOC: "Sende Zivile SPYSAT-Zugangsanfrage"
+  REQUEST_CIV_SPY_ACCESS_RECIEVER_LOC: "Sie bitten um Zugang zu unserem zivilen Aufklärungssatellitensystem."
+  REQUEST_CIV_SPY_ACCESS_ACCEPTED_TITLE: "Zugang gewährt!"
+  REQUEST_CIV_SPY_ACCESS_ACCEPTED_DESC: "Wir werden von ihrem zivilen Aufklärungssatellitensystem profitieren."
+  REQUEST_CIV_SPY_ACCESS_REJECTED_TITLE: "Zugang verweigert!"
+  REQUEST_CIV_SPY_ACCESS_REJECTED_DESC: "Sie haben uns den Zugang zu ihrem zivilen Aufklärungssatellitensystem verweigert."
+  REQUEST_CIV_SPY_ACCESS_SELECTABLE_TT: "§YZiviler SPYSAT-Systemlevel§! von [PREV.GetNameWithFlag] muss größer als null und mindestens gleich dem Level von [ROOT.GetNameWithFlag] sein."
+
+  ### Angebot ###
+  OFFER_CIV_SPY_ACCESS_TITLE: "Angebot zivilen SPYSAT-Zugangs"
+  OFFER_CIV_SPY_ACCESS_ACTION_DESC: "Bieten Sie Zugang zu unserem zivilen Aufklärungssatellitensystem an."
+  OFFER_CIV_SPY_ACCESS_LOC: "Sende Angebot zivilen SPYSAT-Zugang"
+  OFFER_CIV_SPY_ACCESS_RECIEVER_LOC: "Sie bieten Zugang zu ihrem zivilen Aufklärungssatellitensystem an."
+  OFFER_CIV_SPY_ACCESS_ACCEPTED_TITLE: "Angebot akzeptiert!"
+  OFFER_CIV_SPY_ACCESS_ACCEPTED_DESC: "Sie werden von unserem zivilen Aufklärungssatellitensystem profitieren."
+  OFFER_CIV_SPY_ACCESS_REJECTED_TITLE: "Angebot abgelehnt!"
+  OFFER_CIV_SPY_ACCESS_REJECTED_DESC: "Sie haben unser Angebot für Zugang zu unserem zivilen Aufklärungssatellitensystem abgelehnt."
+  OFFER_CIV_SPY_ACCESS_SELECTABLE_TT: "§YZiviler SPYSAT-Systemlevel§! von [ROOT.GetNameWithFlag] muss größer als null und mindestens gleich dem Level von [PREV.GetNameWithFlag] sein."
+
+  ### Widerrufen ###
+  REVOKE_CIV_SPY_ACCESS_TITLE: "Zivilen SPYSAT-Zugang widerrufen"
+  REVOKE_CIV_SPY_ACCESS_ACTION_DESC: "Widerrufen Sie den Zugang zu unserem zivilen Aufklärungssatellitensystem."
+  REVOKE_CIV_SPY_ACCESS_LOC: "Sende Widerruf des zivilen SPYSAT-Zugangs"
+  REVOKE_CIV_SPY_ACCESS_RECIEVER_LOC: "Sie widerrufen den Zugang zu ihrem zivilen Aufklärungssatellitensystem."
+  REVOKE_CIV_SPY_ACCESS_ACCEPTED_TITLE: "Zivilen SPYSAT-Zugang widerrufen"
+  REVOKE_CIV_SPY_ACCESS_ACCEPTED_DESC: "Sie widerrufen den Zugang zu ihrem zivilen Aufklärungssatellitensystem."
 
 
- PROPOSE_IMPROVED_TRADE_AGREEMENT_TITLE: "Propose §YTrade Agreement§!"
- PROPOSE_IMPROVED_TRADE_AGREEMENT_ACTION_DESC: "Proposing a §YTrade Agreement§! with this nation should be a mutually beneficial agreement. Bringing greater prosperity to both our nation and theirs. If the nation is looking to invest, having a §YTrade Agreement§! also increases your chance of getting investments.\n\nThe following are factors to how the AI will react to the agreement:\nSame Government, Opinion, Influence, Faction, EU Membership, NATO Membership."
- PROPOSE_TRADE_AGREEMENT_TOOLTIP: "Is not currently in a §YTrade Agreement§! with §Y[This.GetNameWithFlag]§!\n"
- PROPOSAL_MISSING_TOOLTIP: "Is not currently considering an offer from §Y[This.GetNameWithFlag]§!\n"
- PROPOSE_TRADE_AGREEMENT_DESC: "A §YTrade Agreement§! between our two nations will increase trade influence by §G100§! and opinion with §Y[This.GetNameWithFlag]§! by §G25§! should it be accepted. The two nations will also receive §G~1%§! influence over one another."
- PROPOSE_TRADE_AGREEMENT_ACCEPT_TT: "[THIS.GetNameWithFlag] §GAccepted§! the §YTrade Agreement§!!"
- PROPOSE_TRADE_AGREEMENT_ACCEPT_DESC: "[THIS.GetNameWithFlag] has accepted the agreement yielding the following effects:\n\nTrade Influence Increase of §G50§!\nOpinion Increase of §G25§!\nIncreased Influence of Around §G~1%§!\n"
- PROPOSE_TRADE_AGREEMENT_REJECT_TT: "[THIS.GetNameWithFlag] §RRejected§! the §YTrade Agreement§!!"
- PROPOSE_TRADE_AGREEMENT_REJECT_DESC: "Unfortunately [THIS.GetNameWithFlag] has rejected our trade agreement. Perhaps another day we could sign an agreement."
 
- CANCEL_TRADE_AGREEMENT_TITLE: "End §YTrade Agreement§!"
- CANCEL_TRADE_AGREEMENT_ACTION_DESC: "Ending the §YTrade Agreement§! with this nation will cause tensions amongst our nations."
- CANCEL_TRADE_AGREEMENT_TOOLTIP: "Is currently in a §YTrade Agreement§! with §Y[This.GetNameWithFlag]§!\n"
- CANCEL_TRADE_AGREEMENT_DESC: "Ending the §YTrade Agreement§! Has the Following Effects:\n\nTrade Influence Decreases by §R50§!\nOpinion Decrease by §R25§! with a ticking opinion modifier of §R15§! due to breaking the agreement\n"
- CANCEL_TRADE_AGREEMENT_RECIEVING_TT: "Transmission from [Root.GetNameWithFlag]"
- CANCEL_TRADE_AGREEMENT_RECIEVING_DESC: "Message from §Y[Root.GetNameWithFlag]§! changes their diplomatic status with us: Cancel Trade Agreement"
 
- # Assume Debt
- DIPLO_ACTION_ASSUME_DEBT_TITLE: "Propose §YDebt Assumption§!"
- DIPLO_ACTION_ASSUME_DEBT_ACTION_DESC: "We can propose a §YDebt Assumption§! to another nation to help assuage their current economic issues. If they choose to accept this offer, we gain a small amount of opinion and assume 25% of their §YDebt§!. It is first taken out of our treasury.\n\nThe following are factors to how the AI will react to the agreement:\nSame Government, Opinion, Influence, Faction, EU Membership, NATO Membership."
- DIPLO_ACTION_ASSUME_DEBT_DESC: "We can assume another nation's §YDebt§! to help assuage their current economic issues. If they choose to accept this offer, we gain a small amount of opinion and assume 25% of their §YDebt§!. It is first taken out of our treasury."
- DIPLO_ACTION_ASSUME_DEBT_ACCEPT: "[THIS.GetNameWithFlag] §GAccepted!§!"
- DIPLO_ACTION_ASSUME_DEBT_ACCEPT_DESC: "[THIS.GetNameWithFlag] has accepted the §YDebt§! assumption. We have taken on twenty-five percent of their current §YDebt§!. Assuaging some of the burden on [THIs.GetNameWithFlag]."
- DIPLO_ACTION_ASSUME_DEBT_REJECT: "[THIS.GetNameWithFlag] §RRejected!§!"
- DIPLO_ACTION_ASSUME_DEBT_REJECT_DESC: "Unfortunately, [THIS.GetNameWithFlag] has rejected our debt assumption. Perhaps another day we could sign an agreement."
- treasury_more_than_25_debt_tt: "Current Estimated §YDebt§! to Assume: $[?tmp|-]b\n"
 
- # Propose Mutual Investment Treaty
- PROPOSE_MUTUAL_INVESTMENT_TREATY_TOOLTIP: "Is not currently in a §YMutual Investment Treaty§! with §Y[This.GetNameWithFlag]§!\n"
- PROPOSE_MUTUAL_INVESTMENT_TREATY_TITLE: "Propose §YMutual Investment Treaty§!"
- PROPOSE_MUTUAL_INVESTMENT_TREATY_ACTION_DESC: "We can propose a §YMutual Investment Treaty§! with this nation to encourage investments within both of our nations. The treaty will give us each a §YInvestment Cost & Duration§! reduction of §G5§!%, and §G~1§!% influence on each nation.\n\nThe following are factors to how the AI will react to the agreement:\nSame Government, Opinion, Influence, Faction, EU Membership, NATO Membership.\n\nFurthermore, if the target nation is an AI they will be added to the §YPermanent Investment Target§! pool which means they will try to invest in you."
- DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY: "Proposing a §YMutual Investment Treaty§! will §YTrade Influence§! by §G30§! and §YOpinion§! with §Y[This.GetNameWithFlag]§! by §G30§! should it be accepted by the other nation. The two nations will also receive §G~1%§! §YInfluence§! over one another. Furthermore, each nation will have §YInvestment Cost & Duration§! on one another reduced by §G5§!%."
- DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY_ACCEPT: "[THIS.GetNameWithFlag] §GSigned§! the §YMutual Investment Treaty§!"
- DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY_ACCEPT_DESC: "[THIS.GetNameWithFlag] has signed the §YMutual Investment Treaty§!. Our two nations are quickly coming together already as a result and the investors in our nation are already interested in the new business opportunities."
- DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY_REJECT: "[THIS.GetNameWithFlag] §RRejected§! the §YMutual Investment Treaty§!"
- DIPLO_ACTION_PROPOSE_MUTUAL_INVESTMENT_TREATY_REJECT_DESC: "[THIS.GetNameWithFlag] has rejected the §YMutual Investment Treaty§!. The investors in our nation are disappointed that our two nations could not come to an agreement. Maybe at another time..."
 
- CANCEL_MUTUAL_INVESTMENT_TREATY_TITLE: "End §YMutual Investment Treaty§!"
- CANCEL_MUTUAL_INVESTMENT_TOOLTIP: "Is currently in a §YMutual Investment Treaty§! with §Y[This.GetNameWithFlag]§!\n"
- CANCEL_MUTUAL_INVESTMENT_TREATY_ACTION_DESC: "We are no longer interested in maintaining our §YMutual Investment Treaty§! between our two nations. It is time to end the §YMutual Investment Treaty§! and start to reforge new deals for the future. Ending the §YTrade Agreement§! Has the Following Effects:\n\nTrade Influence Decreases by §R50§!\nOpinion Decrease by §R25§! with a ticking opinion modifier of §R15§! due to breaking the agreement\n"
- DIPLO_ACTION_CANCEL_MUTUAL_INVESTMENT_TREATY: "Unfortunately [THIS.GetNameWithFlag] has withdrawn from our §YMutual Investment Treaty§!. Perhaps another day we could sign another §YMutual Investment Treaty§!, but as of now we no longer possess an agreement."
 
- # Missile System Diplomatic Actions
- base_desire: "Base Desire"
- opinion_condition: "Opinion"
- friends_condition: "Friends"
- foes_condition: "Foes"
- war_condition: "War"
- wargoal_condition: "Wargoals"
 
- ############
- ### GNSS ###
- ############
 
- ### GNSS MIL ###
- ### Request ###
- REQUEST_MIL_GNSS_ACCESS_TITLE: "Military GNSS Access"
- REQUEST_MIL_GNSS_ACCESS_ACTION_DESC: "Request access to their military GNSS network."
- REQUEST_MIL_GNSS_ACCESS_LOC: "Send Military GNSS Access Request"
- REQUEST_MIL_GNSS_ACCESS_RECIEVER_LOC: "They are asking for access to our military GNSS network."
- REQUEST_MIL_GNSS_ACCESS_ACCEPTED_TITLE: "Access granted!"
- REQUEST_MIL_GNSS_ACCESS_ACCEPTED_DESC: "We will benefit from their military GNSS network."
- REQUEST_MIL_GNSS_ACCESS_REJECTED_TITLE: "Access denied!"
- REQUEST_MIL_GNSS_ACCESS_REJECTED_DESC: "They denied us access to their military GNSS network."
- REQUEST_MIL_GNSS_ACCESS_SELECTABLE_TT: "§YMilitary GNSS System Level§! of [PREV.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [ROOT.GetNameWithFlag]."
 
- ### Offer ###
- OFFER_MIL_GNSS_ACCESS_TITLE: "Offer Military GNSS Access"
- OFFER_MIL_GNSS_ACCESS_ACTION_DESC: "Offer access to our military GNSS network."
- OFFER_MIL_GNSS_ACCESS_LOC: "Send Military GNSS Access Offer"
- OFFER_MIL_GNSS_ACCESS_RECIEVER_LOC: "They are offering access to their military GNSS network."
- OFFER_MIL_GNSS_ACCESS_ACCEPTED_TITLE: "Offer accepted!"
- OFFER_MIL_GNSS_ACCESS_ACCEPTED_DESC: "They will benefit from our military GNSS network."
- OFFER_MIL_GNSS_ACCESS_REJECTED_TITLE: "Offer rejected"
- OFFER_MIL_GNSS_ACCESS_REJECTED_DESC: "They rejected our offer for access to our military GNSS network."
- OFFER_MIL_GNSS_ACCESS_SELECTABLE_TT: "§YMilitary GNSS System Level§! of [ROOT.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [PREV.GetNameWithFlag]."
 
- ### Revoke ###
- REVOKE_MIL_GNSS_ACCESS_TITLE: "Revoke Military GNSS Access"
- REVOKE_MIL_GNSS_ACCESS_ACTION_DESC: "Revoke access to our military GNSS network."
- REVOKE_MIL_GNSS_ACCESS_LOC: "Send Military GNSS Access Revoke"
- REVOKE_MIL_GNSS_ACCESS_RECIEVER_LOC: "They are revoking their access to their military GNSS network."
- REVOKE_MIL_GNSS_ACCESS_ACCEPTED_TITLE: "Revoke Military GNSS Access"
- REVOKE_MIL_GNSS_ACCESS_ACCEPTED_DESC: "They are revoking their access to their military GNSS network."
 
- ### GNSS CIV ###
- ### Request ###
- REQUEST_CIV_GNSS_ACCESS_TITLE: "Civilian GNSS Access"
- REQUEST_CIV_GNSS_ACCESS_ACTION_DESC: "Request access to their civilian GNSS network."
- REQUEST_CIV_GNSS_ACCESS_LOC: "Send Civilian GNSS Access Request"
- REQUEST_CIV_GNSS_ACCESS_RECIEVER_LOC: "They are asking for access to our civilian GNSS network."
- REQUEST_CIV_GNSS_ACCESS_ACCEPTED_TITLE: "Access granted!"
- REQUEST_CIV_GNSS_ACCESS_ACCEPTED_DESC: "We will benefit from their civilian GNSS network."
- REQUEST_CIV_GNSS_ACCESS_REJECTED_TITLE: "Access denied!"
- REQUEST_CIV_GNSS_ACCESS_REJECTED_DESC: "They denied us access to their civilian GNSS network."
- REQUEST_CIV_GNSS_ACCESS_SELECTABLE_TT: "§YCivilian GNSS System Level§! of [PREV.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [ROOT.GetNameWithFlag]."
 
- ### Offer ###
- OFFER_CIV_GNSS_ACCESS_TITLE: "Offer Civilian GNSS Access"
- OFFER_CIV_GNSS_ACCESS_ACTION_DESC: "Offer access to our civilian GNSS network."
- OFFER_CIV_GNSS_ACCESS_LOC: "Send Civilian GNSS Access Offer"
- OFFER_CIV_GNSS_ACCESS_RECIEVER_LOC: "They are offering access to their civilian GNSS network."
- OFFER_CIV_GNSS_ACCESS_ACCEPTED_TITLE: "Offer accepted!"
- OFFER_CIV_GNSS_ACCESS_ACCEPTED_DESC: "They will benefit from our civilian GNSS network."
- OFFER_CIV_GNSS_ACCESS_REJECTED_TITLE: "Offer rejected"
- OFFER_CIV_GNSS_ACCESS_REJECTED_DESC: "They rejected our offer for access to our civilian GNSS network."
- OFFER_CIV_GNSS_ACCESS_SELECTABLE_TT: "§YCivilian GNSS System Level§! of [ROOT.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [PREV.GetNameWithFlag]."
 
- ### Revoke ###
- REVOKE_CIV_GNSS_ACCESS_TITLE: "Revoke Civilian GNSS Access"
- REVOKE_CIV_GNSS_ACCESS_ACTION_DESC: "Revoke access to our civilian GNSS network."
- REVOKE_CIV_GNSS_ACCESS_LOC: "Send Civilian GNSS Access Revoke"
- REVOKE_CIV_GNSS_ACCESS_RECIEVER_LOC: "They are revoking access to their civilian GNSS network."
- REVOKE_CIV_GNSS_ACCESS_ACCEPTED_TITLE: "Revoke Civilian GNSS Access"
- REVOKE_CIV_GNSS_ACCESS_ACCEPTED_DESC: "They are revoking access to their civilian GNSS network."
 
- ###########
- ### COM ###
- ###########
 
- ### COM MIL ###
- ### Request ###
- REQUEST_MIL_COM_ACCESS_TITLE: "Military COMSAT Access"
- REQUEST_MIL_COM_ACCESS_ACTION_DESC: "Request access to their military Satellite Communication System."
- REQUEST_MIL_COM_ACCESS_LOC: "Send Military COMSAT Access Request"
- REQUEST_MIL_COM_ACCESS_RECIEVER_LOC: "They are asking for access to our military Satellite Communication System."
- REQUEST_MIL_COM_ACCESS_ACCEPTED_TITLE: "Access granted!"
- REQUEST_MIL_COM_ACCESS_ACCEPTED_DESC: "We will benefit from their military Satellite Communication System."
- REQUEST_MIL_COM_ACCESS_REJECTED_TITLE: "Access denied!"
- REQUEST_MIL_COM_ACCESS_REJECTED_DESC: "They denied us access to their military Satellite Communication System."
- REQUEST_MIL_COM_ACCESS_SELECTABLE_TT: "§YMilitary COMSAT System Level§! of [PREV.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [ROOT.GetNameWithFlag]."
-
- ### Offer ###
- OFFER_MIL_COM_ACCESS_TITLE: "Offer Military COMSAT Access"
- OFFER_MIL_COM_ACCESS_ACTION_DESC: "Offer access to our military Satellite Communication System."
- OFFER_MIL_COM_ACCESS_LOC: "Send Military COMSAT Access Offer"
- OFFER_MIL_COM_ACCESS_RECIEVER_LOC: "They are offering access to their military Satellite Communication System."
- OFFER_MIL_COM_ACCESS_ACCEPTED_TITLE: "Offer accepted!"
- OFFER_MIL_COM_ACCESS_ACCEPTED_DESC: "They will benefit from our military Satellite Communication System."
- OFFER_MIL_COM_ACCESS_REJECTED_TITLE: "Offer rejected"
- OFFER_MIL_COM_ACCESS_REJECTED_DESC: "They rejected our offer for access to our military Satellite Communication System."
- OFFER_MIL_COM_ACCESS_SELECTABLE_TT: "§YMilitary COMSAT System Level§! of [ROOT.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [PREV.GetNameWithFlag]."
-
- ### Revoke ###
- REVOKE_MIL_COM_ACCESS_TITLE: "Revoke Military COMSAT Access"
- REVOKE_MIL_COM_ACCESS_ACTION_DESC: "Revoke access to our military Satellite Communication System."
- REVOKE_MIL_COM_ACCESS_LOC: "Send Military COMSAT Access Revoke"
- REVOKE_MIL_COM_ACCESS_RECIEVER_LOC: "They are revoking our access to their military Satellite Communication System!"
- REVOKE_MIL_COM_ACCESS_ACCEPTED_TITLE: "Revoke Military COMSAT Access"
- REVOKE_MIL_COM_ACCESS_ACCEPTED_DESC: "They are revoking our access to their military Satellite Communication System!"
-
- ### COM CIV ###
- ### Request ###
- REQUEST_CIV_COM_ACCESS_TITLE: "Civilian COMSAT Access"
- REQUEST_CIV_COM_ACCESS_ACTION_DESC: "Request access to their civilian Satellite Communication System."
- REQUEST_CIV_COM_ACCESS_LOC: "Send Civilian COMSAT Access Request"
- REQUEST_CIV_COM_ACCESS_RECIEVER_LOC: "They are asking for access to our civilian Satellite Communication System."
- REQUEST_CIV_COM_ACCESS_ACCEPTED_TITLE: "Access granted!"
- REQUEST_CIV_COM_ACCESS_ACCEPTED_DESC: "We will benefit from their civilian Satellite Communication System."
- REQUEST_CIV_COM_ACCESS_REJECTED_TITLE: "Access denied!"
- REQUEST_CIV_COM_ACCESS_REJECTED_DESC: "They denied us access to their civilian Satellite Communication System."
- REQUEST_CIV_COM_ACCESS_SELECTABLE_TT: "§YCivilian COMSAT System Level§! of [PREV.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [ROOT.GetNameWithFlag]."
-
- ### Offer ###
- OFFER_CIV_COM_ACCESS_TITLE: "Offer Civilian COMSAT Access"
- OFFER_CIV_COM_ACCESS_ACTION_DESC: "Offer access to our civilian Satellite Communication System."
- OFFER_CIV_COM_ACCESS_LOC: "Send Civilian COMSAT Access Offer"
- OFFER_CIV_COM_ACCESS_RECIEVER_LOC: "They are offering access to their civilian Satellite Communication System."
- OFFER_CIV_COM_ACCESS_ACCEPTED_TITLE: "Offer accepted!"
- OFFER_CIV_COM_ACCESS_ACCEPTED_DESC: "They will benefit from our civilian Satellite Communication System."
- OFFER_CIV_COM_ACCESS_REJECTED_TITLE: "Offer rejected"
- OFFER_CIV_COM_ACCESS_REJECTED_DESC: "They rejected our offer for access to our civilian Satellite Communication System."
- OFFER_CIV_COM_ACCESS_SELECTABLE_TT: "§YCivilian COMSAT System Level§! of [ROOT.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [PREV.GetNameWithFlag]."
-
- ### Revoke ###
- REVOKE_CIV_COM_ACCESS_TITLE: "Revoke Civilian COMSAT Access"
- REVOKE_CIV_COM_ACCESS_ACTION_DESC: "Revoke access to our civilian Satellite Communication System."
- REVOKE_CIV_COM_ACCESS_LOC: "Send Civilian COMSAT Access Revoke"
- REVOKE_CIV_COM_ACCESS_RECIEVER_LOC: "They are revoking the access to their civilian Satellite Communication System."
- REVOKE_CIV_COM_ACCESS_ACCEPTED_TITLE: "Revoke Civilian COMSAT Access"
- REVOKE_CIV_COM_ACCESS_ACCEPTED_DESC: "They are revoking the access to their civilian Satellite Communication System."
-
- ###########
- ### SPY ###
- ###########
-
- ### SPY MIL ###
- ### Request ###
- REQUEST_MIL_SPY_ACCESS_TITLE: "Military SPYSAT Access"
- REQUEST_MIL_SPY_ACCESS_ACTION_DESC: "Request access to their military Reconnaissance Satellite System."
- REQUEST_MIL_SPY_ACCESS_LOC: "Send Military SPYSAT Access Request"
- REQUEST_MIL_SPY_ACCESS_RECIEVER_LOC: "They are asking for access to our military Reconnaissance Satellite System."
- REQUEST_MIL_SPY_ACCESS_ACCEPTED_TITLE: "Access granted!"
- REQUEST_MIL_SPY_ACCESS_ACCEPTED_DESC: "We will benefit from their military Reconnaissance Satellite System."
- REQUEST_MIL_SPY_ACCESS_REJECTED_TITLE: "Access denied!"
- REQUEST_MIL_SPY_ACCESS_REJECTED_DESC: "They denied us access to their military Reconnaissance Satellite System."
- REQUEST_MIL_SPY_ACCESS_SELECTABLE_TT: "§YMilitary SPYSAT System Level§! of [PREV.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [ROOT.GetNameWithFlag]."
-
- ### Offer ###
- OFFER_MIL_SPY_ACCESS_TITLE: "Offer Military SPYSAT Access"
- OFFER_MIL_SPY_ACCESS_ACTION_DESC: "Offer access to our military Reconnaissance Satellite System."
- OFFER_MIL_SPY_ACCESS_LOC: "Send Military SPYSAT Access Offer"
- OFFER_MIL_SPY_ACCESS_RECIEVER_LOC: "They are offering access to their military Reconnaissance Satellite System."
- OFFER_MIL_SPY_ACCESS_ACCEPTED_TITLE: "Offer accepted!"
- OFFER_MIL_SPY_ACCESS_ACCEPTED_DESC: "They will benefit from our military Reconnaissance Satellite System."
- OFFER_MIL_SPY_ACCESS_REJECTED_TITLE: "Offer rejected"
- OFFER_MIL_SPY_ACCESS_REJECTED_DESC: "They rejected our offer for access to our military Reconnaissance Satellite System."
- OFFER_MIL_SPY_ACCESS_SELECTABLE_TT: "§YMilitary SPYSAT System Level§! of [ROOT.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [PREV.GetNameWithFlag]."
-
- ### Revoke ###
- REVOKE_MIL_SPY_ACCESS_TITLE: "Revoke Military SPYSAT Access"
- REVOKE_MIL_SPY_ACCESS_ACTION_DESC: "Revoke access to our military Reconnaissance Satellite System."
- REVOKE_MIL_SPY_ACCESS_LOC: "Send Military SPYSAT Access Revoke"
- REVOKE_MIL_SPY_ACCESS_RECIEVER_LOC: "They are revoking the access to their military Reconnaissance Satellite System."
- REVOKE_MIL_SPY_ACCESS_ACCEPTED_TITLE: "Revoke Military SPYSAT Access"
- REVOKE_MIL_SPY_ACCESS_ACCEPTED_DESC: "They are revoking the access to their military Reconnaissance Satellite System."
-
- ### SPY CIV ###
- ### Request ###
- REQUEST_CIV_SPY_ACCESS_TITLE: "Civilian SPYSAT Access"
- REQUEST_CIV_SPY_ACCESS_ACTION_DESC: "Request access to their civilian Reconnaissance Satellite System."
- REQUEST_CIV_SPY_ACCESS_LOC: "Send Civilian SPYSAT Access Request"
- REQUEST_CIV_SPY_ACCESS_RECIEVER_LOC: "They are asking for access to our civilian Reconnaissance Satellite System."
- REQUEST_CIV_SPY_ACCESS_ACCEPTED_TITLE: "Access granted!"
- REQUEST_CIV_SPY_ACCESS_ACCEPTED_DESC: "We will benefit from their civilian Reconnaissance Satellite System."
- REQUEST_CIV_SPY_ACCESS_REJECTED_TITLE: "Access denied!"
- REQUEST_CIV_SPY_ACCESS_REJECTED_DESC: "They denied us access to their civilian Reconnaissance Satellite System."
- REQUEST_CIV_SPY_ACCESS_SELECTABLE_TT: "§YCivilian SPYSAT System Level§! of [PREV.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [ROOT.GetNameWithFlag]."
-
- ### Offer ###
- OFFER_CIV_SPY_ACCESS_TITLE: "Offer Civilian SPYSAT Access"
- OFFER_CIV_SPY_ACCESS_ACTION_DESC: "Offer access to our civilian Reconnaissance Satellite System."
- OFFER_CIV_SPY_ACCESS_LOC: "Send Civilian SPYSAT Access Offer"
- OFFER_CIV_SPY_ACCESS_RECIEVER_LOC: "They are offering access to their civilian Reconnaissance Satellite System."
- OFFER_CIV_SPY_ACCESS_ACCEPTED_TITLE: "Offer accepted!"
- OFFER_CIV_SPY_ACCESS_ACCEPTED_DESC: "They will benefit from our civilian Reconnaissance Satellite System."
- OFFER_CIV_SPY_ACCESS_REJECTED_TITLE: "Offer rejected"
- OFFER_CIV_SPY_ACCESS_REJECTED_DESC: "They rejected our offer for access to our civilian Reconnaissance Satellite System."
- OFFER_CIV_SPY_ACCESS_SELECTABLE_TT: "§YCivilian SPYSAT System Level§! of [ROOT.GetNameWithFlag] must be greater than zero and at least greater or equal to the level of [PREV.GetNameWithFlag]."
-
- ### Revoke ###
- REVOKE_CIV_SPY_ACCESS_TITLE: "Revoke Civilian SPYSAT Access"
- REVOKE_CIV_SPY_ACCESS_ACTION_DESC: "Revoke access to our civilian Reconnaissance Satellite System."
- REVOKE_CIV_SPY_ACCESS_LOC: "Send Civilian SPYSAT Access Revoke"
- REVOKE_CIV_SPY_ACCESS_RECIEVER_LOC: "They are revoking the access to their civilian Reconnaissance Satellite System."
- REVOKE_CIV_SPY_ACCESS_ACCEPTED_TITLE: "Revoke Civilian SPYSAT Access"
- REVOKE_CIV_SPY_ACCESS_ACCEPTED_DESC: "They are revoking the access to their civilian Reconnaissance Satellite System."
+ 
+ 
+ 

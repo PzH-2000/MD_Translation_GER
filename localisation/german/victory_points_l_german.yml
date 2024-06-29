@@ -1,5 +1,18 @@
-﻿l_english:
- VICTORY_POINTS_TOOLTIP: "§G$NAME$§! victory points = §Y$POINTS$§!"
+﻿l_german:
+
+#   
+#    _______________________________________
+#   /                                       \
+#   |                                       |
+#   |  DONT TOUCH IT BRO!                   |
+#   |                                       |
+#   \_______________________________________/
+#   
+#    Grund: Unwichtig, da es nur Beschreibung beinhaltet die jeder versteht; Projekt für später..
+#    von: NiclqsGER                                                     
+#                                                                                              
+
+ VICTORY_POINTS_TOOLTIP: "§G$NAME$§! Siegpunkte: §Y$POINTS$§!"
  VICTORY_POINTS_13266: "Parachinar"
  VICTORY_POINTS_13264: "Mohmand"
  VICTORY_POINTS_13265: "Khyber"
