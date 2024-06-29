@@ -19,3 +19,12 @@ The Millennium Dawn sub-mod is an additional modification that builds upon the c
 
 #### Who created this sub-mod?
 This sub-mod is currently maintained by me, but anyone is welcome to contribute by submitting pull requests. It was originally created by a group of modders who are not affiliated with the main developers of the Millennium Dawn mod.
+
+#### Current goal of the project
+At the moment, the primary goal is to translate to a base. Some translations are certainly bad, as they are simply interpreted 1:1, and if necessary it works logically. But this project needs to grow to achieve its purpose. Then we can get down to the nitty-gritty.  Or as my maths teacher taught me: "A bit of cosmetics later, and it's fine".
+
+#### Can the mod be used?
+No. More than 80% of the content is missing, but to make it faster, catch and help! 10 lines of translation are 10 lines.
+
+#### I have discovered an error!
+Please report it immediately under Issues. Describe when and where it came from, e.g. NATO accession. My Country: Germany or KI start a war 2014 and captured the Crimea
