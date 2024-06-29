@@ -4,9 +4,9 @@
  industrial_complex_plural: "Zivile Industrien"
  industrial_complex_desc: "Dieses Gebäude stellt dem Staat Industrie für die Produktion ziviler Güter oder den Bau neuer Gebäude zur Verfügung. Es kann bei Bedarf in eine Militärindustrie umgewandelt werden.\n\nBietet dem Staat:\nGrundanzahl der benötigten Arbeiter: §Y360K§!\nGrund-BIP-Ausstoß pro §YZiviler Industrie§!: $§Y20 Milliarden§!\nGrund-Energieverbrauch: §R-0,4§! GW\n"
  #1
- arms_factory: "Rüstungsindustrie"
- arms_factory_plural: "Rüstungsindustrien"
- arms_factory_desc: "Dieses Gebäude stellt dem Staat Industrie für die Produktion neuer Militärausrüstung zur Verfügung. Es kann bei Bedarf in eine zivile Industrie umgewandelt werden.\n\nBietet dem Staat:\nGrundanzahl der benötigten Arbeiter: §Y25K§!\nGrund-BIP-Ausstoß pro §YRüstungsindustrie§!: $§Y1 Milliarde§!\nGrund-Energieverbrauch: §R-0,4§! GW"
+ arms_factory:0 "Rüstungsindustrie"
+ arms_factory_plural:0 "Rüstungsindustrien"
+ arms_factory_desc:0 "Dieses Gebäude stellt dem Staat Industrie für die Produktion neuer Militärausrüstung zur Verfügung. Es kann bei Bedarf in eine zivile Industrie umgewandelt werden.\n\nBietet dem Staat:\nGrundanzahl der benötigten Arbeiter: §Y25K§!\nGrund-BIP-Ausstoß pro §YRüstungsindustrie§!: $§Y1 Milliarde§!\nGrund-Energieverbrauch: §R-0,4§! GW"
  #2
  infrastructure: "Infrastruktur"
  infrastructure_plural: "Infrastrukturen"

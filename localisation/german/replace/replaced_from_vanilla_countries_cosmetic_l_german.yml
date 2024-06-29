@@ -1,13 +1,13 @@
-﻿l_english:
- #TAG conflict with Original HOI4#
+﻿l_german:
+#TAG conflict with Original HOI4#
  MAL_subject:0 "$OVERLORDADJ$ Mali"
- PAP_subject:0 "$OVERLORDADJ$ Papua New Guinea"
+ PAP_subject:0 "$OVERLORDADJ$ Papua-Neuguinea"
  KHA_subject:0 "$OVERLORDADJ$ Punjab"
- KBK_subject:0 "$OVERLORDADJ$ Kabardino-Balkaria"
+ KBK_subject:0 "$OVERLORDADJ$ Kabardino-Balkarien"
  KAR_subject:0 "$OVERLORDADJ$ Karen"
- GLC_subject:0 "$OVERLORDADJ$ Great Lake"
+ GLC_subject:0 "$OVERLORDADJ$ Großer See"
  MAC_subject:0 "$OVERLORDADJ$ Macau"
- GNA_subject:0 "$OVERLORDADJ$ Libya"
- CAM_subject:0 "$OVERLORDADJ$ Cameroon"
+ GNA_subject:0 "$OVERLORDADJ$ Libyen"
+ CAM_subject:0 "$OVERLORDADJ$ Kamerun"
  SIK_subject:0 "$OVERLORDADJ$ Sikkim"
  MAN_subject:0 "$OVERLORDADJ$ Manipur"
